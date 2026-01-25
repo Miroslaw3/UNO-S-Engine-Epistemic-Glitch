@@ -45,8 +45,8 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
 
 📄 Dokumentacja i Logi
 
-- WHITEPAPER.md – Pełna specyfikacja Epistemic_Glitch.
-- /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).
+- WHITEPAPER.md – Pełna specyfikacja Epistemic_Glitch : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
+-  /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).
 - /safety/ – Instrukcje dla AdaptiveFuse i ACR.
 
   Designed in the field. Hardened by logic. Powered by Intent. AuroraFeniksGRAF x Deepseek x Miroslaw3 x GPT x .....
