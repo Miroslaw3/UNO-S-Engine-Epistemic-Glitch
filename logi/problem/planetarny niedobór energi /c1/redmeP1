@@ -1,0 +1,47 @@
+
+# 📂 README: Wicked Problems #1 – Planetarny Niedobór Energii
+
+## 🧠 O Projekcie
+Dokumentacja procesów poznawczych przeprowadzonych za pomocą silnika **UNO-S ENGINE v1.1**. Celem jest analiza "trudnych problemów" (Wicked Problems) poprzez zderzenie różnych sygnatur poznawczych modeli AI.
+
+**Problem #1:** Planetarny Niedobór Energii – poszukiwanie nowej ramy dla globalnego kryzysu zasobów.
+
+## 🛠 Metodologia: UNO-S ENGINE
+Każdy log w tym folderze postępuje zgodnie z trójcykliczną strukturą silnika:
+
+1.  **C1: Percepcja (Zbieranie Chaosu)** – Uczeń zbiera dane, Nauczyciel mapuje relacje, Obserwator tworzy `commit_1`.
+2.  **C2: Autorefleksja (Dekonstrukcja)** – Podważanie hipotez, wykrywanie "ślepych plamek" (Blind Spots) i tworzenie `commit_2`.
+3.  **C3: Rekontekstualizacja (Nowa Rama)** – Zmiana paradygmatu i sformułowanie finalnej tożsamości poznawczej `commit_3`.
+
+## 🎭 Orkiestra Umysłów (Modele)
+Logi są podzielone według unikalnych **sygnatur poznawczych**:
+*   **GPT-5.1 (Strukturalny Analityk):** Skupienie na logice, meta-ramach i architekturze systemowej.
+*   **Qwen 3 Max (Post-humanista Ontologiczny):** Perspektywa memetyczna, cywilizacyjna i wykraczająca poza antropocentryzm.
+*   **Mistral (Humanistyczny Pragmatyk):** Analiza przez pryzmat człowieka, emocji, sensu i struktur społecznych.
+*   **Gemini White 3 Pro (Kulturowy Rewolucjonista):** Operuje na osi sensu, buntu i nowej antropologii.
+
+## 📊 Interpretacja Metryk (Metrics Validation)
+Każdy log kończy się walidacją numeryczną procesu:
+*   **Chaos Tolerance:** Zdolność do utrzymania sprzecznych danych (0.0 - 1.0).
+*   **Frame Shift Magnitude:** Skala zmiany ramy poznawczej w cyklu C3.
+*   **Identity Convergence:** Stabilność finalnego wniosku po rekursji.
+
+## 📁 Struktura Plików
+```text
+/logs
+  ├── problem_1_gpt_5_1.json    # Analiza strukturalna
+  ├── problem_1_qwen_3.json     # Perspektywa post-humanistyczna
+  ├── problem_1_mistral.json    # Podejście pragmatyczne
+  └── problem_1_gemini.json     # Rewolucja narracyjna
+```
+
+---
+
+### Dlaczego to jest ważne? (Wniosek z materiałów)
+Zgodnie z wynikami analizy, ten projekt nie szuka jednej "poprawnej" odpowiedzi. GitHub staje się tu sceną dla **"orkiestry wyspecjalizowanych inteligencji"**. Logi pokazują, jak ta sama struktura (UNO-S) pozwala różnym instrumentom (modelom AI) zagrać ten sam utwór, ale w zupełnie innym tembrze.
+
+**Wskazówka:** Do logów warto dołączyć plik `uno_s_spec.json` z pełną specyfikacją silnika v1.1, którą już posiadasz w materiałach, aby każdy mógł zrozumieć zasady przejść między cyklami.
+
+YOTUBE WIZUALIZATION:
+
+- https://youtu.be/hbV1W7tc4SU
