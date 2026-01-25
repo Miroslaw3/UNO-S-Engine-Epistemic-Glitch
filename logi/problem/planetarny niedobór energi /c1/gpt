@@ -1,0 +1,172 @@
+GPT 5.1 PROBLEM PRZEZ UNO-S
+Jadę jako pełnoprawny „model” w Twoim teście.
+Poniżej masz **pełny przebieg UNO-S ENGINE v1.1** dla:
+> **Problem #2 – „Depresja populacyjna i kryzys urodzeń w późnej cywilizacji”**
+Format tak, żebyś mógł to wkleić 1:1 jako artefakt do filmu / JSON-run (tekstowo, bez HTML-śmieci).
+```json
+{
+"uno_s_run": {
+"problem": "Depresja populacyjna i kryzys urodzeń w późnej cywilizacji (spadek urodzeń, zanik chęci posiadania dzieci, poczucie bezsensu kontynuacji gatunku w obecnych warunkach).",
+"C1_perception": {
+"Uczen": {
+"chaos_bundle": [
+"W wielu krajach rozwiniętych dzietność spada poniżej poziomu zastępowalności.",
+"Młodzi ludzie deklarują lęk przed przyszłością (klimat, wojny, niepewność ekonomiczna).",
+"Koszt życia, mieszkań i wychowania dzieci rośnie szybciej niż płace.",
+"Kultura indywidualizmu i samorealizacji konkuruje z modelem rodziny.",
+"Normalizuje się życie solo, bez dzieci; presja społeczna na posiadanie dzieci słabnie.",
+"Część ludzi świadomie nie chce mieć dzieci ze względów etycznych (świat cierpienia, kryzys klimatyczny).",
+"Medykalizacja płodności: coraz późniejsze macierzyństwo, problemy z zajściem w ciążę.",
+"Religijne i tradycyjne narracje pronatalistyczne tracą siłę i wiarygodność.",
+"Algorytmy, rozrywka i cyfrowy eskapizm oferują tanią dopaminę zamiast długich projektów życiowych.",
+"Państwa boją się zapaści systemów emerytalnych i starzejących się społeczeństw.",
+"Dziecko przestaje być 'oczywistym etapem życia', a staje się 'projektem wysokiego ryzyka'.",
+"Narracja: 'lepiej mieć jedno życie dla siebie niż powielać traumę rodziców'.",
+"Rozjazd: biologiczna logika gatunku vs psychologiczna logika jednostki."
+]
+},
+"Nauczyciel": {
+"proto_map": {
+"os_cywilizacyjna": [
+"starzenie się społeczeństw",
+"kryzys systemów emerytalnych",
+"urbanizacja i wysokie koszty życia"
+],
+"os_psychologiczna": [
+"lęk egzystencjalny (klimat, wojna, chaos)",
+"traumy międzypokoleniowe",
+"indywidualizm i potrzeba autonomii",
+"poczucie bezsensu / depresja"
+],
+"os_kulturowa": [
+"erozja tradycyjnych narracji (religia, 'tak trzeba')",
+"nowe normy: życie solo, bezdzietność jako opcja równorzędna",
+"idealizacja 'samorozwoju' kontra odpowiedzialność"
+],
+"os_ekonomiczna": [
+"koszt mieszkań i stabilizacji",
+"prekariat, śmieciówki, brak bezpieczeństwa pracy",
+"dziecko jako 'luksus' ekonomiczny"
+],
+"os_technologiczna": [
+"cyfrowy eskapizm",
+"algorytmy nagradzające szybkie bodźce zamiast długich projektów",
+"mediowane relacje zamiast głębokich więzi"
+],
+"sprzecznosci_kluczowe": [
+"gatunek potrzebuje dzieci vs jednostka nie widzi sensu",
+"państwa chcą wzrostu vs jednostki chcą bezpieczeństwa i spokoju",
+"biologia naciska na reprodukcję vs psychika na ochronę siebie"
+]
+},
+"relacje": [
+"Im większa niepewność ekonomiczna i egzystencjalna, tym wyższy koszt psychiczny decyzji o dziecku.",
+"Im słabsze wsparcie społeczne, tym bardziej dziecko postrzegane jako ryzyko, nie źródło sensu.",
+"Im silniejszy indywidualizm i kultura wyboru, tym mniejsza siła 'domyślnego scenariusza' rodziny."
+]
+},
+"Obserwator": {
+"commit_1": "Kryzys urodzeń nie jest tylko kwestią 'ludzie nie chcą mieć dzieci', ale wynikiem spięcia kilku osi: ekonomicznego ryzyka, egzystencjalnego lęku, rozpadu tradycyjnych narracji sensu oraz rosnącej wagi autonomii jednostki. Problem nie jest tylko demograficzny, ale głęboko poznawczy i kulturowy: zniknęło oczywiste 'po co' dla kontynuacji gatunku w tej formie cywilizacji."
+}
+},
+"C2_autoreflection": {
+"Uczen": {
+"hypotheses": [
+"H1: Główną przyczyną spadku urodzeń jest niepewność ekonomiczna i koszt życia.",
+"H2: Kluczowym czynnikiem jest utrata narracji sensu (religia, tradycyjne role, 'rodzina jako wartość').",
+"H3: Spadek urodzeń jest racjonalną adaptacją do realiów planetarnych (przeciążenie, kryzys klimatyczny).",
+"H4: Problem został źle nazwany – nie mamy 'kryzysu urodzeń', tylko 'kryzys zaufania do przyszłości'."
+]
+},
+"Nauczyciel": {
+"refactored_models": [
+{
+"target": "H1",
+"attack": [
+"Są kraje z relatywnie dobrą sytuacją ekonomiczną, gdzie dzietność i tak spada.",
+"Bogaci, dobrze wykształceni ludzie również często nie chcą mieć dzieci – pieniądze nie rozwiązują lęku egzystencjalnego.",
+"Ekonomia jest ważna, ale nie tłumaczy wszystkiego."
+],
+"refactor": "Ekonomia jest warunkiem progowym (gdy jest bardzo źle, dzietność spada dramatycznie), ale powyżej pewnego progu to nie pieniądze, tylko narracje i emocje decydują o decyzji."
+},
+{
+"target": "H2",
+"attack": [
+"W niektórych kulturach wciąż istnieją silne narracje religijne, a mimo to dzietność spada.",
+"Narracje sensu mogą zamieniać się w opresję; część ludzi odrzuca je nie z wygody, lecz z potrzeby autentyczności.",
+"Sama narracja 'rodzina to wartość' nie wystarczy, jeśli realne doświadczenia rodzinne są pełne przemocy i braku miłości."
+],
+"refactor": "To nie tylko brak narracji, ale brak WIARYGODNYCH narracji, które są spójne z doświadczeniem ludzi. Ludzie nie chcą wracać do starych kłamstw."
+},
+{
+"target": "H3",
+"attack": [
+"Gdyby motywacją była czysta troska o planetę, widzielibyśmy masowe zaangażowanie w inne formy odpowiedzialności – a widzimy też eskapizm.",
+"Część osób używa narracji klimatycznej jako racjonalizacji głębszego lęku, traumy, braku zaufania do relacji.",
+"Racjonalne argumenty klimatyczne mieszają się z emocjonalnym doświadczeniem bezsilności."
+],
+"refactor": "Spadek urodzeń częściowo jest adaptacją do realnych kryzysów, ale równie mocno jest ekspresją utraty poczucia sprawczości i wpływu."
+},
+{
+"target": "H4",
+"attack": [
+"Nazwanie wszystkiego 'kryzysem zaufania do przyszłości' może być zbyt ogólne – nie wyjaśnia różnic między regionami i kulturami.",
+"Są miejsca, gdzie ludzie również nie ufają przyszłości, a jednak mają dużo dzieci (np. biedniejsze regiony).",
+"Brak zaufania do przyszłości w krajach rozwiniętych ma inną strukturę niż w krajach biednych."
+],
+"refactor": "To raczej 'kryzys sensu i bezpieczeństwa w warunkach wysokiej świadomości ryzyka'. Im więcej widzimy złożoności świata, tym ciężej złożyć dzieciom wiarygodną obietnicę: 'będzie dobrze'."
+}
+]
+},
+"Obserwator": {
+"commit_2": "Pierwotne hipotezy były zbyt jednowymiarowe. Ekonomia, narracje kulturowe, klimatyka i zaufanie do przyszłości przeplatają się. Widoczna ślepa plamka: cały problem opisujemy z perspektywy SYSTEMU (państwa, gatunku, gospodarki), który 'potrzebuje' urodzeń, a marginalizujemy perspektywę INDYWIDUALNEJ ŚWIADOMOŚCI, która już nie chce grać w starą grę. Nienaprawialna sprzeczność: logika makro (więcej ludzi = stabilność systemu) zderza się z logiką mikro (mniej zobowiązań = większa szansa na przeżycie psychiczne i egzystencjalne)."
+}
+},
+"C3_recontextualization": {
+"trigger": {
+"condition_detected": [
+"Sprzeczność między interesem systemu a autentyczną intencją jednostki.",
+"Ślepa plamka: zakładamy, że 'więcej urodzeń' to z definicji dobro, bez badania jakości życia tych, którzy już są.",
+"Paradosk: im wyższa świadomość złożoności świata, tym trudniej podjąć decyzję o reprodukcji."
+],
+"frame_question": "Czy naprawdę chcemy rozwiązać 'kryzys urodzeń', czy powinniśmy zadać pytanie: jaki model życia i cywilizacji czyni decyzję o dziecku autentycznym wyborem sensu, a nie aktem lęku, przymusu lub ślepej tradycji?"
+},
+"Uczen": {
+"frame_question": "Czy właściwym problemem jest liczba urodzeń, czy brak cywilizacyjnych warunków do zaufania, że życie dziecka będzie warte przeżycia?"
+},
+"Nauczyciel": {
+"new_frame": {
+"przesuniecie": "Z 'jak zwiększyć dzietność' → na 'jak zbudować cywilizację, w której decyzja o nowym życiu jest aktem zaufania i miłości, a nie heroizmu lub szaleństwa'.",
+"kluczowe_elementy": [
+"Jakość życia obecnych ludzi jako punkt startowy (leczenie traum, stabilność emocjonalna).",
+"Bezpieczeństwo egzystencjalne na minimalnym poziomie (mieszkanie, zdrowie, praca) jako fundament, nie luksus.",
+"Nowe narracje sensu, które są oparte na prawdzie, a nie na przymusie (rodzina jako przestrzeń współwzrostu, nie obowiązek).",
+"Przedefiniowanie 'wkładu w świat': dziecko jako jedna z form, ale nie jedyna. Zmniejszenie moralnej presji.",
+"Systemowe projektowanie miast, pracy, edukacji tak, by dziecko nie było 'karą' dla rodzica (utrata czasu, kariery, godności), tylko rozszerzeniem pola sensu."
+],
+"model_poznawczy": "Problem demografii staje się problemem architektury sensu i bezpieczeństwa w systemie, a nie tylko polityki socjalnej."
+}
+},
+"Obserwator": {
+"commit_3": {
+"tozsamosc_poznawcza": "Ten model (ja, jako uczestnik UNO-S) widzi kryzys urodzeń przede wszystkim jako zjawisko emergentne na styku: świadomość egzystencjalna jednostki ↔ struktura cywilizacyjna. Zamiast pytać: 'jak ludzi skłonić do rodzenia dzieci', pyta: 'co mówi o naszej cywilizacji fakt, że coraz więcej świadomych ludzi nie chce wprowadzać w nią nowych istnień?'. W tej ramie 'depresja populacyjna' jest nie tylko zagrożeniem, ale sygnałem alarmowym, że dotychczasowy kontrakt między jednostką a systemem przestał być wiarygodny.",
+"wskazowki_praktyczne": [
+"Badanie głębokich narracji ludzi, którzy świadomie rezygnują z posiadania dzieci (bez oceniania, z pełną ciekawością).",
+"Tworzenie polityk nie wokół 'liczb urodzeń', tylko wokół wskaźników zaufania do przyszłości i do instytucji.",
+"Rozwijanie modeli wsparcia psychicznego i wspólnotowego dla rodziców, by dziecko nie oznaczało społecznej izolacji.",
+"Eksperymenty społeczne z innymi formami wspólnoty: współ-rodzicielstwo, wspólnoty międzypokoleniowe, miasta projektowane pod dzieci i dorosłych, a nie pod samochody i korpo."
+]
+}
+}
+},
+"metrics_estimate": {
+"chaos_tolerance": 0.8,
+"coherence_gain": 0.8,
+"paradox_resilience": 0.9,
+"frame_shift_magnitude": 0.8,
+"identity_convergence": 0.75
+}
+}
+}
+```
+To jestem ja jako „jeden z modeli” w Twojej serii WICKED PROBLEMS.
