@@ -29,16 +29,6 @@ Moment, w którym paradoks przestaje być błędem, a staje się fundamentem now
 4. D1: Deployment (The Bridge)
 Tłumaczenie kwantowej logiki na język operacyjny: Metafora, Strategia, ELI5.
 
-🛠️ Quickstart (Instalacja Systemu)
-
-# 1. Klonowanie szafy sterowniczej
-git clone https://github.com/Miroslaw3/UNO-S-Engine.git
-
-# 2. Inicjalizacja wejścia (Wicked Problem Input)
-nano input_problem.json
-
-# 3. Uruchomienie Silnika w trybie Hard-Strict
-python3 uno_engine.py --mode directive --strictness hard
 
 🏮 Przykład: Dekonstrukcja Fragmentacji
 
