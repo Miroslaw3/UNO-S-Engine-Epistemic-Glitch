@@ -1,0 +1,231 @@
+UNO-S v1.3 “Epistemic Glitch”
+Protocol-Driven Cognitive Engine for Wicked Problems
+
+Author: Mirosław
+Version: 1.3 (Patched)
+Codename: Epistemic Glitch
+
+Abstract
+
+UNO-S (Unified Negotiation Operator – Synthetic) is a protocol-driven cognitive engine designed to process wicked problems: problems that are ill-defined, paradoxical, non-decomposable, and resistant to single optimal solutions.
+
+Unlike classical prompt-response paradigms, UNO-S enforces a structured cognitive trace composed of sequential cycles (C1 → C2 → C3 → D1) with an optional escalation module (UNO-F).
+The primary output of the system is not an answer, but a reproducible epistemic process: a logged sequence of conflicts, corrections, reframings, and deployment translations.
+
+Version 1.3 (“Epistemic Glitch”) introduces hardened contradiction detection, guided correction vectors, recursive failure memory (ghost_log), and a dedicated deployment phase.
+
+1. Motivation: Why Prompting Fails on Wicked Problems
+
+Most contemporary AI interactions follow a shallow loop:
+
+prompt → response → subjective evaluation
+
+This approach fails systematically when:
+
+the problem contains mutually exclusive truths,
+
+the framing itself is part of the problem,
+
+the observer’s assumptions distort the solution space,
+
+optimization collapses meaning instead of clarifying it.
+
+In such cases, better answers are not the goal.
+Better questions, better frames, and visible reasoning failures are.
+
+UNO-S was designed to force friction, expose hidden assumptions, and preserve cognitive failures as first-class data.
+
+2. Core Design Principles
+
+UNO-S is built on five non-negotiable principles:
+
+2.1 Process over Outcome
+
+The epistemic value lies in how a conclusion is reached, not what it is.
+
+2.2 Contradiction as Signal
+
+A valid run must surface a Vital Contradiction — a binary, mutually exclusive tension that cannot be resolved by simple aggregation.
+
+2.3 Guided Correction
+
+Rejection without directional correction is epistemically useless.
+Every rejected hypothesis must produce a correction_vector.
+
+2.4 Memory of Failure
+
+Recursive attempts inherit a ghost_log — a structured memory of why previous runs failed.
+
+2.5 Human-Readable Deployment
+
+Abstract insight is incomplete until translated into operational language.
+
+3. System Architecture Overview
+
+UNO-S operates as a tricyclic cognitive engine with an optional escalation layer.
+
+Problem
+  ↓
+C1 — Perception (Conflict Detection)
+  ↓
+C2 — Autoreflection (Assumption Deconstruction)
+  ↓
+C3 — Recontextualization (Frame Reconstruction)
+  ↓
+D1 — Deployment (Human Interface)
+  ↘
+ UNO-F — Higher-Order Escalation (if stuck)
+
+Each cycle is executed through three roles:
+
+Uczeń (Learner) — generative exploration
+
+Nauczyciel (Teacher) — constraint, validation, correction
+
+Obserwator (Observer) — synthesis and commit creation
+
+4. Cycle Definitions
+4.1 C1 — Perception: Vital Contradiction Detection
+
+Goal:
+Identify a real, painful contradiction embedded in the problem.
+
+Key Outputs:
+
+chaos_bundle — conflicting narratives and signals
+
+vital_contradiction — binary, mutually exclusive tension
+
+commit_1 — formalized problem tension
+
+friction_score — difficulty of finding the contradiction
+
+Transition Rule:
+C1 succeeds only if:
+
+contradiction is binary and exclusive
+
+friction_score > 0.6
+
+Otherwise, the system loops back with enforced search pressure.
+
+4.2 C2 — Autoreflection: Assumption Deconstruction
+
+Goal:
+Expose hidden assumptions and redirect exploration away from guesswork.
+
+Key Outputs:
+
+hypotheses
+
+refactored_models
+
+correction_vector
+
+commit_2 — map of blind spots and invalid assumptions
+
+Critical Constraint:
+If the Teacher rejects a hypothesis, a correction_vector is mandatory.
+Rejection without direction is treated as failure.
+
+4.3 C3 — Recontextualization: Frame Reconstruction
+
+Goal:
+Determine whether the entire game is misframed and construct a new ontology.
+
+Key Outputs:
+
+frame_question
+
+new_frame
+
+commit_3 — stable cognitive attractor
+
+Recursion Rule:
+If successive commit_3 outputs converge (>0.9 similarity), the system recurses with inherited ghost_log.
+
+4.4 D1 — Deployment: Human-Readable Interface
+
+Goal:
+Translate abstract insight into operational language.
+
+Outputs:
+
+metaphor — conceptual compression
+
+strategy_one_liner — executive-level directive
+
+eli5 — simplified explanation
+
+This phase explicitly prioritizes usability over theoretical elegance.
+
+5. UNO-F: Higher-Order Escalation Module
+
+UNO-F activates when:
+
+the system is stuck,
+
+paradox is structurally irreducible,
+
+identity convergence collapses.
+
+UNO-F forces a question-of-the-question sequence:
+
+F1: What causes this contradiction?
+
+F2: How does my perspective generate it?
+
+F3: Why is this question possible at all?
+
+F4: Who is asking? (identity check)
+
+Output:
+A new higher-order problem + inherited ghost_log.
+
+6. Metrics and Safeguards
+
+UNO-S v1.3 introduces explicit evaluative metrics:
+
+friction_score — cognitive resistance
+
+chaos_tolerance — ability to hold conflicting data
+
+paradox_resilience — constructive vs destructive paradox
+
+identity_convergence — stability of epistemic identity
+
+A recursion_guard halts execution if identity collapses beyond recovery, signaling the need for human meta-intervention.
+
+7. What UNO-S Is Not
+
+To avoid category errors, UNO-S is not:
+
+a benchmark,
+
+a ranking system for models,
+
+an optimization engine,
+
+a truth oracle.
+
+UNO-S is a cognitive oscilloscope: it measures tension, not correctness.
+
+8. Use Cases
+
+Comparative analysis of AI reasoning styles
+
+Exploration of socio-technical paradoxes
+
+Strategy reframing under uncertainty
+
+Human-AI co-thinking experiments
+
+Documentation of epistemic failure modes
+
+9. Conclusion
+
+UNO-S v1.3 “Epistemic Glitch” formalizes something usually hidden:
+the productive failure of thought.
+
+By enforcing structure, memory, and translation, the engine transforms confusion into navigable terrain.
+Not by resolving paradoxes — but by making them legible.
