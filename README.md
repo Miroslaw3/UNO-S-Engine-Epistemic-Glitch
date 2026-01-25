@@ -1,58 +1,81 @@
-# UNO-S-Engine-Epistemic-Glitch
-📑 DOKUMENTACJA TECHNICZNA: UNO-S ENGINE v1.3
-Kryptonim: Epistemic_Glitch Zastosowanie: Rozwiązywanie problemów niegodziwych (Wicked Problems) poprzez trójfazowy proces dekonstrukcji i rekontekstualizacji.
+# UNO-SF — Manifest
 
-1. Architektura Systemowa
-Silnik UNO-S v1.3 jest hierarchicznym systemem poznawczym, który wykorzystuje rekurencję i pamięć błędów (Ghost Log) do nawigacji w środowiskach paradoksalnych.
 
-1.1. Moduł Bezpieczeństwa (Recursion Guard)
-Max_depth: 7 (Limit głębokości rekurencji).
+UNO-FF is a protocol-driven engine for processing wicked problems through structured cognitive cycles (C1 → C2 → C3 → D1), with optional escalation via UNO-F.
 
-Ghost Log: Bufor pamięci przechowujący przyczyny porażek z poprzednich poziomów. Zapobiega wpadaniu w te same pętle logiczne.
 
-Emergency Exit: Automatyczne zatrzymanie i prośba o interwencję ludzką (UNO-HUMAN), gdy zbieżność tożsamości spada poniżej progu krytycznego.
+* * *
 
-2. Cykle Operacyjne (C1-D1)
-🧩 C1: PERCEPCJA (Identyfikacja Sprzeczności)
-Cel: Wydobycie z chaosu „Vital Contradiction” (Sprzeczności Krytycznej).
 
-Kluczowa Rola (Nauczyciel): Odrzuca „letnie” sprzeczności. Jeśli Friction Score < 0.6, system musi wrócić do fazy Ucznia z komendą: „Szukaj tam, gdzie boli bardziej”.
+## New Paradigm: From Prompts to Protocols
 
-Wynik: commit_1 (Definicja napięcia systemowego).
 
-🔍 C2: AUTOREFLEKSJA (Wektorowanie Korekty)
-Cel: Dekonstrukcja założeń i unikanie „zgadywania”.
+Classical usage: ask → get an answer.  
+UNO-SF: define the conflict → expose assumptions → reframe → translate into action.
 
-Innowacja (Correction Vector): Nauczyciel nie tylko odrzuca tezę, ale musi nadać azymut poszukiwań (np. „szukaj w biologii, nie w kulturze”).
 
-Wynik: commit_2 (Mapa ślepych plamek).
+What matters is not the final answer — but the trace of cognition.
 
-🔄 C3: REKONTEKSTUALIZACJA (Budowa Nowej Ramy)
-Wyzwalacz: Aktywowany, gdy unresolvable_paradox == true.
 
-Pytanie Graniczne: Uczeń zadaje fundamentalne pytanie: „Czy gra, w którą gramy, jest właściwa?”.
+* * *
 
-Wynik: commit_3 (Stabilny Atraktor Poznawczy – nowa ontologia problemu).
 
-📢 D1: WDROŻENIE (Interfejs Człowiek-Maszyna)
-Cel: Tłumaczenie abstrakcji na konkret operacyjny.
+## Core Architecture
 
-Format wyjściowy: Metafora, strategia (one-liner) oraz ELI5 (wyjaśnienie dla dziecka).
 
-3. Moduł UNO-F (Forced Logic)
-Specjalistyczna warstwa wymuszania pytań wyższego rzędu, działająca na czterech poziomach (F1-F4):
+```mermaid
+flowchart LR
+  P[Problem] --> C1[C1: Perception]
+  C1 --> C2[C2: Autoreflection]
+  C2 --> C3[C3: Recontextualization]
+  C3 --> D1[D1: Deployment]
+  C2 -->|stuck / paradox| UF[UNO-F: Higher-order problem]
+  C3 -->|recursion| C1
 
-F1: Z czego to wynika?
+C1: chaos_bundle + vital_contradiction
+C2: hypotheses + correction_vector + commit_2
+C3: new_frame + commit_3
+D1: metaphor + strategy_one_liner + ELI5
+UNO-F: escalation to higher-order problem + ghost_log
 
-F2: Jak patrzysz, że powstaje sprzeczność?
+Repository Structure
 
-F3: Dlaczego to pytanie jest możliwe?
+protocol/ — UNO-SF protocol definition (versioned)
 
-F4: Kto pyta? (Identity check). Wyjście: higher_order_problem – definicja problemu na wyższym poziomie abstrakcji.
+problems/ — 9 problems as experiment suites
 
-4. Metrologia (Pomiar Głębi Problemu)
-Friction Score: Miernik bólu poznawczego (0.0 = banał, 1.0 = bolesna prawda).
+each problem contains multiple model runs (Gemini / Claude / DeepSeek / ...)
 
-Chaos Tolerance: Zdolność systemu do utrzymania sprzecznych danych.
+media/ — YouTube links + timestamps mapped to cycles
 
-Paradox Resilience: Ocena, czy znaleziony paradoks jest konstruktywny.
+WHITEPAPER.md — full theory and methodology
+
+Quickstart (Reading the Data)
+
+Pick a problem: problems/P01_.../problem.md
+
+Compare models: problems/P01_.../models/<model_name>/
+
+Read the synthesis: problems/P01_.../summary.md
+
+Example: Same Protocol, Different Minds
+
+Problem: <one-liner>
+Models compared: <e.g., Gemini vs Claude>
+Key divergence: <e.g., C1 vital_contradiction vs C2 correction_vector>
+
+(put 10–20 lines of the most instructive fragments + your 3-line observation)
+
+Metaphor
+
+UNO-FF is a control panel for contradictions: it doesn’t hide instability — it measures it, routes it, and turns it into usable action.
+
+Learn More
+
+WHITEPAPER.md
+
+protocol/
+
+problems/
+
+https://www.youtube.com/playlist?list=PLKivBaAOXsDA_udknrFjc1n69BHox9XWO
