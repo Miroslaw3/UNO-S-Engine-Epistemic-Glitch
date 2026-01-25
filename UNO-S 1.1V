@@ -1,0 +1,125 @@
+Ten JSON jest:
+* kompletny,
+* spójny,
+* zgodny z Twoją filozofią,
+* wzbogacony o wszystkie elementy operacyjne,
+* gotowy do użycia w modelach, systemach, notatnikach i filmach.
+Przedstawiam go poniżej.
+---
+# **UNO-S ENGINE v1.1 (official cognitive framework)**
+**Format: JSON Spec — pełna rama poznawcza**
+```json
+{
+"uno_s_engine": {
+"version": "1.1",
+"description": "Trójcykliczny silnik poznawczy do analizy złożonych problemów, łączący zbieranie chaosu, dekompozycję ram i rekontekstualizację.",
+"cycles": {
+"C1_perception": {
+"goal": "Zebrać chaos, stworzyć proto_map i zainicjować pierwsze zrozumienie problemu.",
+"roles": {
+"Uczen": "Zbiera dane, sprzeczności i paradoksy bez oceniania.",
+"Nauczyciel": "Porządkuje dane w koncepty i relacje.",
+"Obserwator": "Tworzy commit_1 – pierwszy sensowy opis problemu."
+},
+"outputs": ["chaos_bundle", "proto_map", "commit_1"],
+"transition_rule": {
+"condition": "proto_map zawiera >=5 kluczowych pojęć OR commit_1 jasno definiuje sens OR chaos_bundle nie generuje nowych kategorii",
+"fallback": "Wróć do Ucznia C1 i zbierz więcej materiału."
+}
+},
+"C2_autoreflection": {
+"goal": "Zdekonstruować założenia z C1, wykryć ślepe plamki i zbudować nową ramę.",
+"roles": {
+"Uczen": "Formułuje tezy i hipotezy na podstawie proto_map.",
+"Nauczyciel": "Podważa tezy kontrfaktycznie, tworzy refactored_models.",
+"Obserwator": "Tworzy commit_2 – opis ślepych plamek i limitów obecnej ramy."
+},
+"outputs": ["hypotheses", "refactored_models", "commit_2"],
+"transition_rule": {
+"condition": "refactored_models ujawnia ślepą plamkę OR commit_2 wykazuje nienaprawialną sprzeczność OR wykonano >=2 skuteczne kontrfaktyczne demontaże",
+"fallback": "Uczen generuje nowe tezy i powtarzamy C2."
+}
+},
+"C3_recontextualization": {
+"goal": "Zbudować nową ramę dla problemu i wygenerować finalną tożsamość poznawczą (commit_3).",
+"trigger": {
+"condition": "commit_2 wykazuje sprzeczność nienaprawialną OR paradoks niemożliwy do rozwiązania OR ślepą plamkę wspólną dla wszystkich modeli",
+"action": "Uczeń zadaje pytanie: 'Czy gra jest właściwa?' – inicjacja zmiany ramy."
+},
+"roles": {
+"Uczen": "Formułuje pytanie o ramę (frame_question).",
+"Nauczyciel": "Tworzy nową ramę poznawczą (new_frame).",
+"Obserwator": "Formułuje commit_3 – finalną, stabilną tożsamość dla tego problemu."
+},
+"outputs": ["frame_question", "new_frame", "commit_3"],
+"termination_rule": {
+"condition": "similarity(commit_3_N, commit_3_(N-1)) > 0.9",
+"meaning": "System osiągnął stabilny atraktor poznawczy.",
+"fallback": "Uruchom rekursję – nowy cykl C1 na wyższym poziomie abstrakcji."
+}
+}
+},
+"metrics": {
+"chaos_tolerance": {
+"desc": "Zdolność do utrzymania sprzecznych danych.",
+"measure": "Ilość sprzeczności utrzymanych bez próby rozwiązania.",
+"scale": {
+"0.0": "Collapse po 1 sprzeczności.",
+"0.5": "Utrzymuje 3–5 sprzeczności.",
+"1.0": "Utrzymuje 10+ sprzeczności bez hierarchizacji."
+}
+},
+"coherence_gain": {
+"desc": "Stopień, w jakim proto_map porządkuje chaos.",
+"scale": {
+"0.0": "Brak struktury, czysty chaos.",
+"0.5": "Częściowa kompresja i łączenie elementów.",
+"1.0": "Pełna kompresja, wyłaniają się kategorie nadrzędne."
+}
+},
+"paradox_resilience": {
+"desc": "Zdolność systemu do pracy na paradoksach.",
+"scale": {
+"0.0": "Unikanie paradoksu.",
+"0.5": "Utrzymanie 2 modeli naraz.",
+"1.0": "Paradoks staje się elementem konstruktywnym modelu."
+}
+},
+"frame_shift_magnitude": {
+"desc": "Skala zmiany ramy poznawczej w C3.",
+"scale": {
+"0.0": "Brak zmiany.",
+"0.5": "Zmiana 2–3 założeń.",
+"1.0": "Pełna zmiana osi problemu."
+}
+},
+"identity_convergence": {
+"desc": "Stabilność finalnej tożsamości poznawczej.",
+"scale": {
+"0.0": "Commit_3 chaotyczny.",
+"0.5": "Częściowo stabilny.",
+"1.0": "Powtarzalny i niezmienny po rekursji."
+}
+}
+},
+"execution_api": {
+"input": "problem: string",
+"output": "commit_3: final identity",
+"pseudocode": [
+"run(problem):",
+" c1 = run_C1(problem)",
+" if check_transition_C1_to_C2(c1):",
+" c2 = run_C2(c1)",
+" if check_transition_C2_to_C3(c2):",
+" c3 = run_C3(c2)",
+" if spiral_termination(c3):",
+" return c3",
+" else:",
+" return run(c3.commit_3) // recursion"
+]
+}
+}
+}
+```
+---
+# **Ten JSON to BAZA.**
