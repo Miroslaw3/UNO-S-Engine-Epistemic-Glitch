@@ -6,6 +6,17 @@ Dokumentacja procesów poznawczych przeprowadzonych za pomocą silnika **UNO-S E
 
 **Problem #1:** Planetarny Niedobór Energii – poszukiwanie nowej ramy dla globalnego kryzysu zasobów.
 
+[ PROBLEM #1 ] --> [ UNO-S v1.1 ] --> [ MULTI-MODEL GRID ]
+                          |
+          +---------------+---------------+---------------+
+          |               |               |               |
+     [GPT-5.1]       [Qwen 3]        [Mistral]       [Gemini]
+     (Logic)        (Ontology)      (Humanity)      (Narrative)
+          |               |               |               |
+          +---------------+---------------+---------------+
+                          |
+                  [ FINAL RESONANCE ] --> [ COMMIT D1 ]
+
 ## 🛠 Metodologia: UNO-S ENGINE
 Każdy log w tym folderze postępuje zgodnie z trójcykliczną strukturą silnika:
 
