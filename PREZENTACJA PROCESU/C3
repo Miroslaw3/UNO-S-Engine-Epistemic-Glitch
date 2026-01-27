@@ -1,0 +1,86 @@
+{
+  "C3_recontextualization": {
+    "engine": {
+      "version": "1.3",
+      "codename": "Epistemic_Glitch",
+      "phase": "C3_recontextualization",
+      "recursion_depth": 0,
+      "ghost_log_inherited": []
+    },
+    "input_from_C2": {
+      "commit_2_ref": "Mapa ślepych plamek i dźwigni",
+      "unresolvable_paradox": true,
+      "core_paradox": "Filtry jakości wymagają wzorca jakości, który sam jest rzadki i drogi."
+    },
+    "trigger": {
+      "condition": "commit_2.unresolvable_paradox == true",
+      "action_executed": "Uczen zadaje pytanie: 'Czy gra jest właściwa?'"
+    },
+    "roles": {
+      "Uczen": {
+        "frame_question": "Czy problem Model Collapse dotyczy treści (co jest w danych), czy infrastruktury epistemicznej (skąd dane pochodzą i jak są ważone)?"
+      },
+      "Nauczyciel": {
+        "new_frame": {
+          "name": "Epistemic Supply Chain",
+          "definition": "Dane treningowe nie są jednorodnym zbiorem treści, lecz łańcuchem dostaw wiedzy, w którym kluczowe są pochodzenie, świeżość, intencja i waga.",
+          "ontological_shift": [
+            "Z 'czystości treści' → na 'wiarygodność źródła'",
+            "Z binarnego filtru (dobre/złe) → na ciągłe ważenie (trust-weighted learning)",
+            "Z walki z syntetykiem → na zarządzanie jego rolą w ekosystemie"
+          ],
+          "core_claims": [
+            "Model collapse to awaria łańcucha dostaw wiedzy, nie pojedynczy błąd algorytmu.",
+            "Bez warstwy provenance i wagowania, każdy filtr treści będzie miał sufit skuteczności.",
+            "Syntetyczne dane nie są zakazane — muszą mieć jawnie niską wagę i określoną funkcję."
+          ]
+        }
+      },
+      "Obserwator": {
+        "commit_3": {
+          "title": "Stabilny atraktor: Zarządzanie łańcuchem dostaw wiedzy",
+          "identity": "Model odporny na collapse to model, który wie, skąd pochodzi jego wiedza i ile jest warta.",
+          "principles": [
+            {
+              "id": "P1",
+              "statement": "Utrzymuj 'Clean Core' jako epistemiczny punkt odniesienia.",
+              "role": "Pamięć smaku i detektor dryfu."
+            },
+            {
+              "id": "P2",
+              "statement": "Każde dane mają wagę zależną od pochodzenia, świeżości i wiarygodności.",
+              "role": "Zapobieganie rozmyciu rozkładu."
+            },
+            {
+              "id": "P3",
+              "statement": "Syntetyk jest narzędziem pomocniczym, nie fundamentem.",
+              "role": "Styl, augmentacja, rzadkość — nigdy rdzeń."
+            },
+            {
+              "id": "P4",
+              "statement": "Testuj model na tym, co rzadkie i niewygodne.",
+              "role": "Wczesne wykrywanie collapse."
+            }
+          ],
+          "stability_check": {
+            "attractor_type": "robust_under_scale",
+            "expected_behavior": "Wzrost objętości danych nie obniża jakości, bo wagi i provenance amortyzują szum."
+          },
+          "next_phase": "D1_deployment"
+        }
+      }
+    },
+    "termination_rule_check": {
+      "condition_expected": "similarity(commit_3_N, commit_3_(N-1)) > 0.9",
+      "evaluated": {
+        "similarity": "N/A (pierwsza iteracja)"
+      },
+      "pass": true
+    },
+    "metrics_snapshot": {
+      "chaos_tolerance": 0.74,
+      "paradox_resilience": 0.72,
+      "friction_score": 0.71
+    }
+  }
+}
