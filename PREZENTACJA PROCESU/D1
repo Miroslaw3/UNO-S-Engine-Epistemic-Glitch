@@ -1,0 +1,56 @@
+{
+  "D1_deployment": {
+    "engine": {
+      "version": "1.3",
+      "codename": "Epistemic_Glitch",
+      "phase": "D1_deployment",
+      "recursion_depth": 0
+    },
+    "input_from_C3": {
+      "commit_3_ref": "Stabilny atraktor: Zarządzanie łańcuchem dostaw wiedzy"
+    },
+    "roles": {
+      "Translator": {
+        "metaphor": {
+          "title": "Piekarnia wiedzy",
+          "description": "Model to piekarnia. Jeśli nie wiesz, skąd pochodzi mąka, zaczniesz dosypywać trociny, bo są tanie i wszędzie. Rozwiązaniem nie jest lepsze przesiewanie chleba po wypieku, tylko kontrola dostaw mąki, jej jakości i proporcji domieszek."
+        },
+        "strategy_one_liner": "Zatrzymaj model collapse, traktując dane jak łańcuch dostaw: podpisuj źródła, waż dane według zaufania i chroń czysty rdzeń wiedzy.",
+        "eli5": "Jeśli uczysz się z książek, najpierw wybierasz te prawdziwe i dobre. Potem możesz czytać też słabsze, ale wiesz, że nie wszystko w nich jest równie mądre."
+      }
+    },
+    "operationalization": {
+      "steps": [
+        {
+          "step": "Clean Core",
+          "action": "Utrzymuj mały, bardzo czysty zbiór danych referencyjnych.",
+          "owner": "Data curation",
+          "risk_if_skipped": "Model traci punkt odniesienia jakości."
+        },
+        {
+          "step": "Provenance Layer",
+          "action": "Dodaj metadane pochodzenia i zaufania do każdego źródła.",
+          "owner": "Infrastructure",
+          "risk_if_skipped": "Niemożność rozróżnienia mąki od trocin."
+        },
+        {
+          "step": "Weighted Curriculum",
+          "action": "Ucz najpierw na rdzeniu, potem na szerokich danych z niską wagą.",
+          "owner": "Training",
+          "risk_if_skipped": "Wygładzenie rozkładu i utrata ostrości."
+        },
+        {
+          "step": "Collapse Tests",
+          "action": "Ciągle testuj rzadkie fakty, daty, nisze i sprzeczne źródła.",
+          "owner": "Evaluation",
+          "risk_if_skipped": "Collapse wykryty zbyt późno."
+        }
+      ]
+    },
+    "outputs": {
+      "metaphor": "Piekarnia wiedzy z kontrolą dostaw",
+      "strategy_one_liner": "Kontroluj pochodzenie i wagę danych, zamiast próbować czyścić cały internet.",
+      "eli5": "Najpierw ucz się z dobrych książek, a dopiero potem z reszty — i pamiętaj, skąd co pochodzi."
+    }
+  }
+}
