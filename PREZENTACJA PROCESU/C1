@@ -1,0 +1,138 @@
+{
+  "C1_perception": {
+    "engine": {
+      "version": "1.3",
+      "codename": "Epistemic_Glitch",
+      "phase": "C1_perception",
+      "recursion_depth": 0,
+      "ghost_log_inherited": []
+    },
+    "problem_input": {
+      "topic": "Model Collapse",
+      "metaphor": "Chleb z mąki z trocinami",
+      "core": "Jakość danych (degradacja sygnału w treningu/uczeniu przez domieszkę syntetycznego szumu i niskiej jakości treści)"
+    },
+    "roles": {
+      "Uczen": {
+        "chaos_bundle": {
+          "signals": [
+            {
+              "name": "Skalowanie generacji treści",
+              "description": "Szybki wzrost ilości treści syntetycznych i farm treści zwiększa udział danych o niskiej wartości informacyjnej.",
+              "pressure": 0.82
+            },
+            {
+              "name": "Ekonomia attention i SEO",
+              "description": "Systemy rekomendacji premiują klikalność, nie prawdziwość; powstaje bodziec do produkcji 'łatwej mąki'.",
+              "pressure": 0.77
+            },
+            {
+              "name": "Zanieczyszczenie korpusu treningowego",
+              "description": "Korpusy zaczynają zawierać coraz więcej tekstu powstałego z modeli, który jest podobny do istniejących wzorców i wygładza rozkłady.",
+              "pressure": 0.86
+            },
+            {
+              "name": "Trudność w weryfikacji źródeł",
+              "description": "Brak metadanych pochodzenia, brak podpisu/pochodzenia danych, recykling treści między platformami.",
+              "pressure": 0.74
+            },
+            {
+              "name": "Spadek różnorodności i ostrości",
+              "description": "Modele uczą się na własnym odbiciu: rośnie entropia pozorna (dużo tekstu), spada informacja (mało nowej treści).",
+              "pressure": 0.81
+            }
+          ],
+          "failure_modes": [
+            {
+              "mode": "Self-training contamination",
+              "description": "Uczysz model na danych wygenerowanych przez modele (jawnie lub ukrycie), co przesuwa rozkład w stronę średniej.",
+              "risk": 0.85
+            },
+            {
+              "mode": "Truth dilution",
+              "description": "Prawdziwe źródła giną w hałasie; model częściej wybiera 'najbardziej typową' narrację zamiast poprawnej.",
+              "risk": 0.78
+            },
+            {
+              "mode": "Style over substance",
+              "description": "Dane premiują płynność i formę kosztem treści; model staje się retorycznie sprawny, epistemicznie miękki.",
+              "risk": 0.73
+            },
+            {
+              "mode": "Distribution narrowing",
+              "description": "Znika ogon rozkładu: rzadkie fakty, niszowe style, niepopularne perspektywy — czyli to, co buduje odporność.",
+              "risk": 0.80
+            }
+          ],
+          "constraints": [
+            {
+              "constraint": "Skala",
+              "description": "Potrzeba ogromnych zbiorów danych vs ograniczona ilość wysokiej jakości, świeżych i licencjonowanych źródeł.",
+              "tension": 0.84
+            },
+            {
+              "constraint": "Koszt jakości",
+              "description": "Czyszczenie, etykietowanie, weryfikacja i audyt pochodzenia są drogie i wolne.",
+              "tension": 0.79
+            },
+            {
+              "constraint": "Prawo i dostęp",
+              "description": "Dostęp do dobrych danych bywa ograniczany (paywalle, licencje, prywatność).",
+              "tension": 0.70
+            }
+          ],
+          "friction_score": 0.71,
+          "notes": "Metafora 'trociny w mące' mapuje się na: wysoka objętość danych nie oznacza wysokiej wartości informacyjnej; domieszka psuje cały wypiek."
+        }
+      },
+      "Nauczyciel": {
+        "validation": {
+          "checked_for_language_only_conflict": true,
+          "result": "Sprzeczność nie jest semantycznym nieporozumieniem — to realny konflikt celów systemu (skala vs jakość) i konflikt bodźców (produktywność vs prawda).",
+          "rejected_soft_contradictions": [
+            "AI jest dobra vs AI jest zła",
+            "Więcej danych zawsze lepiej vs mniej danych zawsze lepiej"
+          ]
+        }
+      },
+      "Obserwator": {
+        "commit_1": {
+          "title": "Vital Contradiction: Skala wymaga masy, jakość wymaga selekcji",
+          "vital_contradiction": {
+            "statement_A": "Żeby utrzymać postęp i pokrycie świata, model potrzebuje coraz większej ilości danych (skala).",
+            "statement_B": "Żeby utrzymać prawdziwość, różnorodność i ostrość, model potrzebuje danych coraz bardziej selekcjonowanych, świeżych i zweryfikowanych (jakość).",
+            "why_exclusive": "W praktyce zwiększanie skali bez kontroli pochodzenia zwiększa udział treści syntetycznych/niskiej jakości; zwiększanie selekcji ogranicza wolumen i tempo. Oba cele można próbować godzić, ale w operacyjnych zasobach (czas/koszt/dostęp) są w konflikcie.",
+            "is_binary_exclusive": true,
+            "pain_point": "Im bardziej świat zalewa się łatwą treścią, tym trudniej znaleźć 'mąkę' bez trocin; system albo głoduje (za mało danych), albo tyje od śmieci (za dużo złych danych)."
+          },
+          "system_boundary": {
+            "what_is_in_scope": [
+              "pipeline danych (pozyskanie, deduplikacja, filtracja, etykietowanie)",
+              "detekcja pochodzenia (synthetic vs human, podpisy, watermarking)",
+              "strategie uczenia (curriculum, weighting, aktywne pozyskiwanie, RLAIF/RLHF jako filtr końcowy)",
+              "monitoring jakości (testy regresji, drift, różnorodność, rzadkie fakty)"
+            ],
+            "what_is_out_of_scope": [
+              "pełna regulacja internetu",
+              "idealne i darmowe licencjonowanie wszystkiego",
+              "magiczne odróżnianie prawdy od fałszu bez kosztu"
+            ]
+          }
+        }
+      }
+    },
+    "transition_rule_check": {
+      "condition_expected": "vital_contradiction.is_binary_exclusive == true AND chaos_bundle.friction_score > 0.6",
+      "evaluated": {
+        "is_binary_exclusive": true,
+        "friction_score": 0.71
+      },
+      "pass": true
+    },
+    "metrics_snapshot": {
+      "chaos_tolerance": 0.68,
+      "paradox_resilience": 0.63,
+      "friction_score": 0.71
+    }
+  }
+}
