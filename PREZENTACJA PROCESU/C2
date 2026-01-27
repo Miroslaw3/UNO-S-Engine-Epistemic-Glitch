@@ -1,0 +1,192 @@
+{
+  "C2_autoreflection": {
+    "engine": {
+      "version": "1.3",
+      "codename": "Epistemic_Glitch",
+      "phase": "C2_autoreflection",
+      "recursion_depth": 0,
+      "ghost_log_inherited": []
+    },
+    "input_from_C1": {
+      "commit_1_ref": "Vital Contradiction: Skala wymaga masy, jakość wymaga selekcji",
+      "vital_contradiction": {
+        "A": "Skalowanie danych jest potrzebne do postępu i pokrycia świata.",
+        "B": "Selekcja i weryfikacja danych jest potrzebna do utrzymania prawdy, różnorodności i ostrości.",
+        "pain_point": "Trociny rosną szybciej niż mąka."
+      }
+    },
+    "roles": {
+      "Uczen": {
+        "hypotheses": [
+          {
+            "id": "H1",
+            "thesis": "Model collapse to głównie problem zanieczyszczenia (contamination) danymi syntetycznymi i recyklingiem wzorców.",
+            "assumptions": [
+              "Udział treści syntetycznych w danych rośnie w czasie.",
+              "Treści syntetyczne są statystycznie bardziej 'średnie' i mniej informacyjne.",
+              "Pipeline nie odróżnia skutecznie pochodzenia."
+            ],
+            "predictions": [
+              "Spadek różnorodności odpowiedzi i wzrost 'bezpiecznej średniej'.",
+              "Większa zgodność stylu kosztem faktów i detali.",
+              "Regresja na testach wymagających rzadkich faktów/niszowych domen."
+            ],
+            "risk_if_wrong": 0.55
+          },
+          {
+            "id": "H2",
+            "thesis": "To nie tylko syntetyk: przyczyną jest ekonomia selekcji — brak tanich mechanizmów jakości na skalę internetu.",
+            "assumptions": [
+              "Najdroższe jest ustalenie: co jest prawdziwe, świeże i wartościowe.",
+              "Rynkowo opłaca się produkować 'chlebopodobne' treści.",
+              "Wysokiej jakości źródeł jest mniej i są trudniej dostępne."
+            ],
+            "predictions": [
+              "Nawet bez syntetyka, przy masowej produkcji niskiej jakości treści pojawi się podobna degradacja.",
+              "Najbardziej cierpią domeny wymagające referencji i aktualności.",
+              "Wzrośnie wartość danych z gwarantowanym pochodzeniem."
+            ],
+            "risk_if_wrong": 0.45
+          },
+          {
+            "id": "H3",
+            "thesis": "Model collapse jest w dużej mierze problemem wag (weighting) i curriculum: złe dane nie muszą szkodzić, jeśli są odpowiednio odważone i izolowane.",
+            "assumptions": [
+              "Da się wiarygodnie ocenić jakość/przydatność przykładu bez pełnej prawdy.",
+              "Uczenie można prowadzić wieloetapowo (seed-quality → breadth → hardening).",
+              "Nawet 'trociny' mogą mieć użyteczną informację (styl, składnia) przy niskiej wadze."
+            ],
+            "predictions": [
+              "Pipeline z dynamicznym scoringiem jakości ograniczy degradację mimo napływu słabych danych.",
+              "Największy zysk da 'curriculum gating' (najpierw mąka, potem domieszki).",
+              "Zniknie efekt 'globalnego wygładzenia' rozkładu."
+            ],
+            "risk_if_wrong": 0.60
+          },
+          {
+            "id": "H4",
+            "thesis": "Kluczowym wąskim gardłem jest brak infrastruktury pochodzenia (provenance): bez podpisu danych zawsze będziemy mieszać mąkę z trocinami.",
+            "assumptions": [
+              "Da się wprowadzić praktyczny standard sygnowania treści (watermark/metadata).",
+              "Platformy i wydawcy mogą egzekwować sygnały pochodzenia.",
+              "Modele mogą uczyć się preferować dane z wysokim zaufaniem."
+            ],
+            "predictions": [
+              "Wzrost jakości nastąpi głównie przez lepsze źródła, a nie lepsze filtry treści.",
+              "Rozwiną się rynki 'verified corpora'.",
+              "Bez provenance filtry będą miały stały sufit skuteczności."
+            ],
+            "risk_if_wrong": 0.58
+          }
+        ],
+        "refactored_models": {
+          "model_0_naive": {
+            "frame": "Więcej danych = lepszy model",
+            "why_fails": "Nie uwzględnia wartości informacyjnej, pochodzenia ani bodźców ekonomicznych."
+          },
+          "model_1_data_as_signal": {
+            "frame": "Dane to sygnał + szum; model collapse to spadek SNR",
+            "implication": "Trzeba mierzyć i podnosić SNR przez selekcję, weighting i provenance."
+          },
+          "model_2_ecosystemic": {
+            "frame": "To problem ekosystemu: internet + bodźce + platformy + koszty weryfikacji",
+            "implication": "Rozwiązania muszą łączyć technikę (pipeline) i instytucje (źródła, standardy)."
+          },
+          "blindspots_exposed": 3,
+          "blindspots": [
+            "Zakładanie, że jakość da się mierzyć bezpośrednio (w praktyce to proxy).",
+            "Niedoszacowanie ataków adaptacyjnych (treści będą 'udawać' wysoką jakość).",
+            "Ryzyko utraty różnorodności przez zbyt agresywne filtry (over-cleaning)."
+          ]
+        }
+      },
+      "Nauczyciel": {
+        "critique": [
+          {
+            "target": "H1",
+            "status": "partial_accept",
+            "note": "Syntetyk jest ważny, ale to objaw + akcelerator, nie jedyna przyczyna."
+          },
+          {
+            "target": "H3",
+            "status": "conditional_accept",
+            "note": "Weighting/curriculum działają, ale wymagają dobrych sygnałów jakości; inaczej tylko maskują problem."
+          }
+        ],
+        "correction_vector": {
+          "azimuth": "Przesuń analizę z 'jak rozpoznać trociny w treści' na 'jak zbudować system, w którym trociny są oznaczone i mają niską wagę'.",
+          "focus_areas": [
+            "provenance + sygnowanie pochodzenia",
+            "dynamiczny scoring jakości (proxy) i gating w curriculum",
+            "izolacja treningu: 'clean core' vs 'noisy fringe'",
+            "monitoring: testy na rzadkich faktach i różnorodności"
+          ],
+          "do_not_do": [
+            "naiwne usuwanie wszystkiego, co wygląda na AI (fałszywe pozytywy i wojna z cieniami)",
+            "poleganie wyłącznie na RLHF jako filtrze jakości danych (to warstwa zachowania, nie fundament danych)"
+          ]
+        }
+      },
+      "Obserwator": {
+        "commit_2": {
+          "title": "Mapa ślepych plamek i dźwigni",
+          "unresolvable_paradox": true,
+          "paradox": {
+            "statement": "Najlepsze filtry jakości wymagają wzorców jakości, które same pochodzą z rzadkich, drogich danych.",
+            "why_sticks": "Żeby wykrywać trociny, trzeba znać smak dobrego chleba; ale dobry chleb jest coraz rzadszy w masie danych."
+          },
+          "leverage_points": [
+            {
+              "id": "L1",
+              "name": "Clean Core Corpus",
+              "idea": "Utrzymuj mały, ekstremalnie czysty rdzeń danych jako 'pamięć smaku' (anchor set).",
+              "effect": "Stabilizuje uczenie i daje referencję do oceny driftu.",
+              "cost": 0.78
+            },
+            {
+              "id": "L2",
+              "name": "Provenance Signal Layer",
+              "idea": "Wprowadź sygnał pochodzenia: metadane, watermark, podpisy dostawców danych; ucz model preferencji do źródeł.",
+              "effect": "Zmniejsza mieszanie mąki i trocin u źródła.",
+              "cost": 0.72
+            },
+            {
+              "id": "L3",
+              "name": "Curriculum Gating + Weighting",
+              "idea": "Najpierw ucz na rdzeniu (mąka), potem dodawaj fringe (domieszki) z niską wagą i testami regresji.",
+              "effect": "Pozwala skorzystać z objętości bez rozmycia rozkładu.",
+              "cost": 0.55
+            },
+            {
+              "id": "L4",
+              "name": "Adversarial Quality Tests",
+              "idea": "Zestaw testów: rzadkie fakty, sprzeczne źródła, cytowania, daty; śledzenie spadków jako sygnał zanieczyszczenia.",
+              "effect": "Wczesne ostrzeganie przed collapse.",
+              "cost": 0.48
+            }
+          ],
+          "failure_triggers": [
+            "Over-cleaning: filtr usuwa niszowe, wartościowe dane → spada różnorodność.",
+            "Gaming: treści uczą się przechodzić proxy-quality scoring (adversarial SEO).",
+            "No provenance: brak sygnału źródła zmusza do zgadywania na podstawie stylu."
+          ],
+          "next_step_hint": "C3 musi zadać pytanie o ramę: czy walczymy z treścią, czy z infrastrukturą pochodzenia i wag?"
+        }
+      }
+    },
+    "transition_rule_check": {
+      "condition_expected": "commit_2.unresolvable_paradox == true OR refactored_models.blindspots_exposed >= 2",
+      "evaluated": {
+        "unresolvable_paradox": true,
+        "blindspots_exposed": 3
+      },
+      "pass": true,
+      "fallback_if_fail": "Uczen generuje nowe tezy, ale MUSI uwzględnić correction_vector"
+    },
+    "metrics_snapshot": {
+      "chaos_tolerance": 0.71,
+      "paradox_resilience": 0.69,
+      "friction_score": 0.71
+    }
+  }
+}
