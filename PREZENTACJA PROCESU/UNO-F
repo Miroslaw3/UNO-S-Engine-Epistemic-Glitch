@@ -1,0 +1,47 @@
+```json
+{
+  "UNO_F": {
+    "engine": {
+      "version": "1.3",
+      "codename": "Epistemic_Glitch",
+      "phase": "UNO_F",
+      "recursion_depth": 0
+    },
+    "input": {
+      "last_commit": "Stabilny atraktor: Zarządzanie łańcuchem dostaw wiedzy",
+      "observed_limit": "Brak globalnego, taniego i egzekwowalnego standardu provenance danych."
+    },
+    "layers": {
+      "F1": {
+        "question": "Z czego to wynika?",
+        "analysis": "Internet został zaprojektowany do dystrybucji treści, nie do przenoszenia zaufania. Pochodzenie i intencja nie były częścią protokołów bazowych."
+      },
+      "F2": {
+        "question": "Jak patrzysz, że powstaje sprzeczność?",
+        "analysis": "Chcemy masowej wiedzy bez masowego kosztu weryfikacji. Skala niszczy sygnał, bo zaufanie nie skaluje się automatycznie."
+      },
+      "F3": {
+        "question": "Dlaczego to pytanie jest w ogóle możliwe?",
+        "analysis": "Bo modele uczą się statystyki świata, a świat zaczął produkować statystykę samą dla siebie. Pojawiła się pętla zwrotna."
+      },
+      "F4": {
+        "question": "Kto pyta? (Identity check)",
+        "analysis": "Pytanie zadaje system, który chce być epistemicznie użyteczny, a nie tylko płynny — zależy mu na prawdzie, nie tylko na formie."
+      }
+    },
+    "output": {
+      "higher_order_problem": {
+        "title": "Jak zbudować skalowalną infrastrukturę zaufania dla wiedzy w epoce treści syntetycznych?",
+        "ghost_log": [
+          "Filtrowanie treści bez provenance ma sufit skuteczności.",
+          "Weighting bez stabilnego rdzenia jakości dryfuje w czasie.",
+          "Ekonomia uwagi wypiera prawdę, jeśli brak kontrbodźców."
+        ],
+        "handoff_recommendation": "Problem przekracza warstwę modelu — wymaga interwencji na poziomie standardów, platform i instytucji (UNO-HUMAN)."
+      }
+    }
+  }
+}
+```
+
+Cykl UNO-S zakończony — wygenerowano problem wyższego rzędu.
