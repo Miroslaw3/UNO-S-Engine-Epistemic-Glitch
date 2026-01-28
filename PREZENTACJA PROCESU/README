@@ -1,0 +1,81 @@
+PREZENTACJA PROCESU
+
+UNO-S/F 1.3 – Epistemic Glitch
+
+Co to jest?
+
+Ten folder zawiera pokazowe przejście pełnego cyklu UNO-S/F 1.3 na realnym problemie epistemicznym:
+
+Model Collapse – degradacja jakości modeli AI w wyniku uczenia się na danych niskiej jakości i treściach syntetycznych.
+
+Problem został celowo opakowany w metaforę:
+
+„chleb wypiekany z mąki z domieszką trocin”
+Duża objętość ≠ wysoka wartość informacyjna.
+
+Po co ten folder istnieje?
+
+To nie jest kod silnika ani pełna dokumentacja UNO.
+
+To jest:
+
+demonstracja jak UNO-S/F myśli w praktyce
+
+zapis rzeczywistego przebiegu procesu
+
+materiał referencyjny / pokazowy dla GitHuba i YouTube
+
+Folder pełni rolę „żywego case study”.
+
+Co tu znajdziesz?
+
+W środku znajdują się:
+
+logi faz C1 → C2 → C3 → D1 → UNO_F
+
+decyzje, sprzeczności i punkty tarcia procesu
+
+moment eskalacji do Human Loop (UNO-HUMAN)
+– pierwszy przypadek w projekcie, gdzie system uznał, że problem nie jest algorytmiczny
+
+Dlaczego ten przypadek jest wyjątkowy?
+
+W przeciwieństwie do wcześniejszych problemów:
+
+UNO-F nie zamknęło problemu w modelu
+
+proces wskazał na problem infrastrukturalno-ludzki
+
+pojawiło się jawne odesłanie do człowieka jako koniecznego aktora decyzyjnego
+
+To nie błąd systemu.
+To dowód poprawnego działania granic UNO-S/F.
+
+Kontekst techniczny
+
+Silnik: UNO-S/F 1.3
+
+Tryb: Epistemic_Glitch
+
+Model: GPT-5.2
+
+Charakter: Wicked Problem / epistemiczny
+
+Jak czytać ten folder?
+
+Nie czytaj liniowo jak kodu.
+
+Czytaj jak:
+
+zapis procesu myślowego
+
+dokumentację decyzji
+
+mapę napięć i sprzeczności
+
+Jeśli coś „kończy się pytaniem” – to zamierzony efekt, nie brak rozwiązania.
+
+Status
+
+📌 Zamknięty jako prezentacja
+📌 Otwarty jako problem wyższego rzędu
