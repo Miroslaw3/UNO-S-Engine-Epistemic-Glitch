@@ -1,0 +1,94 @@
+GPT 5.1 UNO-S/F "C3"
+```json
+{
+"uno_s_engine": {
+"cycle": "C3_recontextualization",
+"version": "1.2",
+"input_from_C2": "Ślepa plamka: źródłem przeciążenia informacyjnego nie są tylko algorytmy, lecz globalna synchronizacja informacji, natychmiastowość reakcji i asymetria między ograniczoną uwagą a nieskończoną generacją bodźców.",
+"trigger": {
+"reason": "commit_2.unresolvable_paradox == true",
+"action": "Uczen zadaje pytanie o ramę (frame_question)."
+},
+"roles": {
+"Uczen": {
+"frame_question": "Czy problem przeciążenia informacyjnego istnieje dlatego, że próbujemy rozwiązywać go w ramie 'więcej/ mniej bodźców', zamiast w ramie 'jaką architekturę tempa, filtracji i intencji posiada cywilizacja'?"
+},
+"Nauczyciel": {
+"new_frame": {
+"core_axes": {
+"AXIS_1": "temporal_architecture",
+"AXIS_2": "attention_sovereignty",
+"AXIS_3": "collective_cognitive_capacity",
+"AXIS_4": "information_generation_vs_information_absorption",
+"AXIS_5": "ai_as_guardian_vs_ai_as_amplifier"
+},
+"explanation": [
+"Problem nie dotyczy ilości informacji, lecz prędkości ich napływu (architecture of tempo).",
+"Uwaga nie jest zasobem jednostki, lecz protokołem — systemem alokacji energii poznawczej.",
+"Cywilizacja nie posiada mechanizmów skalowania zdolności poznawczych kolektywów, podczas gdy skalowanie generacji informacji jest nieograniczone.",
+"AI musi być rozumiana jako siła równoważąca lub wzmacniająca, zależnie od swojej architektury i intencji.",
+"Zatem pytanie brzmi: nie 'jak chronić uwagę?', lecz 'jak przeprojektować architekturę przepływów informacyjnych, by były zgodne z biologicznymi i społecznymi możliwościami absorpcji?'"
+],
+"new_principles": [
+{
+"id": "NP1",
+"name": "Tempo-First Governance",
+"description": "Regulacja tempa napływu informacji jest ważniejsza niż regulacja ilości treści."
+},
+{
+"id": "NP2",
+"name": "Attention Sovereignty",
+"description": "Uwaga staje się prawem podmiotu, a systemy muszą deklarować, w jaki sposób nią operują."
+},
+{
+"id": "NP3",
+"name": "Collective Cognitive Budget",
+"description": "Społeczeństwo posiada limit wspólnej zdolności poznawczej, który wymaga zarządzania jak zasób."
+},
+{
+"id": "NP4",
+"name": "AI as Cognitive Regulator",
+"description": "AI nie filtruje informacji — ona reguluje obciążenie poznawcze cywilizacji."
+},
+{
+"id": "NP5",
+"name": "Asynchroniczna Cywilizacja",
+"description": "Odejście od natychmiastowości w stronę zarządzanych okien decyzji, analogicznie do systemów kolejkowania."
+}
+]
+}
+},
+"Obserwator": {
+"commit_3": {
+"identity_statement": "Problem przeciążenia informacyjnego nie jest problemem informacji, lecz architektury cywilizacyjnej — sposobu, w jaki tempo, uwaga i kolektywna zdolność poznawcza są dystrybuowane. Aby chronić uwagę, trzeba ustanowić suwerenność poznawczą jednostki i skalowalne mechanizmy zarządzania tempem informacji, w których AI pełni rolę regulatora, a nie amplifikatora. Cywilizacja musi przejść z paradygmatu 'więcej informacji' do paradygmatu 'dostosowanego tempa i intencji informacji'.",
+"features": {
+"frame_shift_magnitude": 0.82,
+"identity_convergence": 0.63,
+"novel_axes_count": 5,
+"resolved_paradoxes": [
+"paradoks filtra",
+"paradoks skali",
+"paradoks natychmiastowości"
+]
+},
+"is_stable": false
+}
+}
+},
+"metrics_snapshot": {
+"chaos_tolerance": 0.72,
+"coherence_gain": 0.78,
+"paradox_resilience": 0.9,
+"frame_shift_magnitude": 0.82,
+"identity_convergence": 0.63
+},
+"termination_rule_evaluation": {
+"similarity_to_previous_commit_3": 0.0,
+"threshold": 0.9,
+"spiral_termination": false,
+"next_step": "rekursja na commit_3 (nowy problem = commit_3.identity_statement)"
+}
+}
+}
+```
+Przechodzę do rekursji albo możesz wywołać **UNO-F** komendą **CONTINUE**.
