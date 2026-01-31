@@ -1,10 +1,19 @@
-CO TO JEST  ;)
+Dla kogo i czym jest UNO S/F 1.3EG
 
 
 
   „UNO-S Engine v1.3: Epistemic Glitch to protokół myślowy / skrypt promptowy, który organizuje proces rozumowania LLM wokół punktów sprzeczności zamiast po prostu generować płynne odpowiedzi. Repo zawiera specyfikację protokołu, przykładowe przebiegi dla problemów złożonych oraz artefakty audytu, ale nie zawiera gotowej biblioteki do importu. Użycie polega na manualnym wklejeniu protokołu wraz z problemem i przejscie przez cykle  C1 → C2 → C3 → D1 za pomoca komendy CONTINUE i analiuzie wyników w przygotowaniu plik audytu do procesu ponizej link do protokołu (skopiuj i wklej do llM)
 
-: - UNO-SF 1.3p + comannd
+!!!!SZYBKI START !!!!!! : 
+
+- Skopiuj protokuł z linku
+- Wklej w LLM
+- Dodaj problem
+- Przechodz przez sekcje za pomocą komendy "Continue"
+- Analizuj wyniki twórz baze
+
+  
+- UNO-SF 1.3p + comannd
 
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-SF%201.3p%20%2B%20comannd
 
@@ -68,7 +77,8 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
    - Depresja urodzeń logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
    - Depresja urodzeń youtube : https://youtu.be/lUq5KriKT1U
  
-   - 
+   - Ekonomia uwagi vs Ekonomia sęsu logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
+   - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/WgrwbDeVbFs
 
 -  PREZENTACJA PROCESU GPT 5.2
 -  https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
