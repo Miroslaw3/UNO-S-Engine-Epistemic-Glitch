@@ -87,7 +87,7 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
    - Depresja urodzeń youtube : https://youtu.be/lUq5KriKT1U
  
    - Ekonomia uwagi vs Ekonomia sęsu logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
-   - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/WgrwbDeVbFs
+   - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/KK8HE2IKBWQ
  
    - Arytmia uwagi logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/arytmia%20uwagi
    - Arytmia uwagi youtube : https://youtu.be/WgrwbDeVbFs
