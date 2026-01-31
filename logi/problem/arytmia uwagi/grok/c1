@@ -1,0 +1,46 @@
+GROK "C1" UNO-S/F HAOS BUNDLE
+{
+"C1_perception": {
+"chaos_bundle": {
+"data_points": [
+"Ludzka uwaga jest skończonym zasobem biologicznym (ok. 4–7 chunków w pamięci roboczej, max 2–3 godziny głębokiego fokus dziennie).",
+"Ekonomia uwagi (attention economy): wszystkie duże platformy (Google, Meta, TikTok, X, Netflix) są finansowo nagradzane za maksymalizację czasu i intensywności zaangażowania.",
+"Natychmiastowość komunikacji (real-time global feed) eliminuje naturalne opóźnienia, które kiedyś pozwalały na refleksję i filtrację.",
+"Efekty uboczne: chroniczny stres, polaryzacja, spadek zdolności do długoterminowego myślenia, erozja wspólnej rzeczywistości faktów.",
+"Paradoks: im więcej informacji, tym mniej zbiorowej wiedzy i mądrości.",
+"AI jako nowy, hiper-skuteczny gracz w walce o uwagę (personalizowane, generatywne, 24/7, multimodalne).",
+"Ewolucyjnie mózg jest przystosowany do środowiska z małą przepustowością informacji (plemię 150 osób, powolne plotki, brak pisma przez 99% historii gatunku).",
+"Brak globalnych regulacji – uwaga jest eksploatowana jak powietrze czy woda w XIX w."
+],
+"new_categories": [
+"biologiczne ograniczenia uwagi",
+"ekonomiczne mechanizmy eksploatacji",
+"technologie przyspieszające przepływ",
+"skutki cywilizacyjne i epistemologiczne",
+"brak instytucjonalnych hamulców"
+]
+},
+"proto_map": {
+"key_concepts": [
+"ograniczona_przepustowosc_uwagi",
+"attention_economy",
+"natychmiastowosc_komunikacji",
+"hiperpersonalizacja_AI",
+"ewolucyjny_mismatch",
+"polaryzacja_spoleczna",
+"erozja_wspolnej_rzeczywistosci",
+"brak_globalnej_regulacji"
+],
+"relations": {
+"attention_economy → hiperpersonalizacja_AI": "współczesny silnik napędowy",
+"natychmiastowosc_komunikacji → erozja_wspolnej_rzeczywistosci": "brak czasu na weryfikację i konsensus",
+"ewolucyjny_mismatch → ograniczona_przepustowosc_uwagi": "fundamentalna przyczyna podatności",
+"brak_globalnej_regulacji → attention_economy": "warunek umożliwiający"
+},
+"key_concepts_count": 8,
+"concept_graph_density": 0.61
+},
+"commit_1": "Globalne Przeciążenie Informacyjne to sytuacja, w której ekonomicznie motywowane, nieograniczone technologie (w tym AI) eksploatują biologicznie ograniczony zasób ludzkiej uwagi w środowisku natychmiastowej, globalnej komunikacji – prowadząc do cywilizacyjnej patologii uwagi, erozji świadomości zbiorowej i braku jakichkolwiek skutecznych hamulców systemowych."
+}
+}
+Czekam na komendę 'CONTINUE' przed przejściem do C2.
