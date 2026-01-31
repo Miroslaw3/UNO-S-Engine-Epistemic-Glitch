@@ -64,12 +64,21 @@ Wejście: "AI dzieli ludzkość na bańki informacyjne." Standardowe AI: "Tak, t
 
 GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. Sprawdza, gdzie płynie prąd, którego nie widać, i wybija korki tam, gdzie myślenie staje się niebezpiecznie banalne.
 
+
+
+
+
 📄 Dokumentacja i Logi
 
 - WHITEPAPER.md – Pełna specyfikacja Epistemic_Glitch :
+
+- 
 - https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
 - 
--  /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).:
+-
+-
+-
+-    /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).:
 -
 -
 -                   PROBLEMY NIEGODZIWE
@@ -80,9 +89,13 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
    - Ekonomia uwagi vs Ekonomia sęsu logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
    - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/WgrwbDeVbFs
 
--  PREZENTACJA PROCESU GPT 5.2
+
+   -
+   -
+   
+
+                                            -  PREZENTACJA PROCESU GPT 5.2
 -  https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
--  
-- /safety/ – Instrukcje dla AdaptiveFuse i ACR. " w przygotowaniu "
+- 
 
   Designed in the field. Hardened by logic. Powered by Intent. AuroraFeniksGRAF x Deepseek x Miroslaw3 x GPT x .....
