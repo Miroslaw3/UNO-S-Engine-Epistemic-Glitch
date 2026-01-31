@@ -49,7 +49,14 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
 - https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
 - 
 -  /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).:
--  https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/planetarny%20niedob%C3%B3r%20energi%20/c1
+-
+-
+-                   PROBLEMY NIEGODZIWE
+-               
+   - Depresja urodzeń logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
+   - Depresja urodzeń youtube : https://youtu.be/lUq5KriKT1U
+ 
+   - 
 
 -  PREZENTACJA PROCESU GPT 5.2
 -  https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
