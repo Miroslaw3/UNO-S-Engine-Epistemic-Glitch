@@ -6,6 +6,8 @@ CO TO JEST  ;)
 
 : - UNO-SF 1.3p + comannd
 
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-SF%201.3p%20%2B%20comannd
+
   
 
 🏗️ UNO-S Engine v1.3: Epistemic Glitch
