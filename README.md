@@ -81,13 +81,16 @@ GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. 
 -    /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).:
 -
 -
--                   PROBLEMY NIEGODZIWE
+-                   STUDIUM PRZYPADKÓW " ANALIZA + LOGI + WIZUALNYESEJ "
 -               
    - Depresja urodzeń logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
    - Depresja urodzeń youtube : https://youtu.be/lUq5KriKT1U
  
    - Ekonomia uwagi vs Ekonomia sęsu logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
    - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/WgrwbDeVbFs
+ 
+   - Arytmia uwagi logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/arytmia%20uwagi
+   - Arytmia uwagi youtube : https://youtu.be/WgrwbDeVbFs
 
 
    -
