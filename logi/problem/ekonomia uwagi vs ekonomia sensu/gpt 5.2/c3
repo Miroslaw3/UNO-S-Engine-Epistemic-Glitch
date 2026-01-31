@@ -1,0 +1,42 @@
+GPT 5.2 odpowiedz za pomoca protokolu UNO-S\F 1.3 " C3"
+{
+"C3_recontextualization": {
+"trigger": {
+"condition": "commit_2.unresolvable_paradox == true",
+"action": "Uczen zadaje pytanie: 'Czy gra jest właściwa?'"
+},
+"roles": {
+"Uczen": {
+"frame_question": "Czy próbujemy monetyzować sens w systemie zaprojektowanym do eksploatacji uwagi — czy raczej powinniśmy zmienić samą architekturę gry (bodźce, tarcia, horyzont czasowy)?"
+},
+"Nauczyciel": {
+"new_frame": {
+"name": "Architektura Sensu",
+"ontology": [
+"Uwaga ≠ sens: uwaga jest paliwem, sens jest strukturą.",
+"Sens jest procesem długiego trwania (integration loop), nie eventem.",
+"Algorytm nie może 'optymalizować sensu' bez zmiany funkcji celu i horyzontu oceny.",
+"Ekonomia sensowności wymaga tarć (friction by design), a nie ich redukcji."
+],
+"design_principles": [
+"Oddzielenie trybów: eksploracja (uwaga) vs integracja (sens).",
+"Metryki opóźnione: wpływ na model świata użytkownika mierzony w czasie.",
+"Negatywna informacja zwrotna za degradację sensu (penalty).",
+"Interfejsy ciszy: przestrzenie bez bodźców konkurencyjnych."
+]
+}
+},
+"Obserwator": {
+"commit_3": {
+"stable_attractor": "Sens nie jest walutą w ekonomii uwagi. Sens jest infrastrukturą poznawczą, która musi być chroniona przed rynkiem uwagi tak, jak chroni się sen, zdrowie lub edukację.",
+"identity_shift": "Z 'optymalizacji treści' na 'projektowanie warunków integracji sensu'.",
+"decision_rule": "Jeśli metryka zwiększa uwagę kosztem integracji — jest antysensowna."
+}
+}
+},
+"termination_check": {
+"similarity_to_previous": 0.93,
+"status": "stable"
+}
+}
+}
