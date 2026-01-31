@@ -3,7 +3,8 @@ CO TO JEST  ;)
 
 
   „UNO-S Engine v1.3: Epistemic Glitch to protokół myślowy / skrypt promptowy, który organizuje proces rozumowania LLM wokół punktów sprzeczności zamiast po prostu generować płynne odpowiedzi. Repo zawiera specyfikację protokołu, przykładowe przebiegi dla problemów złożonych oraz artefakty audytu, ale nie zawiera gotowej biblioteki do importu. Użycie polega na manualnym wklejeniu protokołu wraz z problemem i przejscie przez cykle  C1 → C2 → C3 → D1 za pomoca komendy CONTINUE i analiuzie wyników w przygotowaniu plik audytu do procesu ponizej link do protokołu (skopiuj i wklej do llM)
-: - 
+
+: - UNO-SF 1.3p + comannd
 
   
 
