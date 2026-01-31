@@ -1,0 +1,174 @@
+GPT 5.1 UNO-S/F "C1"
+{
+"uno_s_engine": {
+"cycle": "C1_perception",
+"version": "1.2",
+"input_problem": "Jak chronić uwagę człowieka i świadomość społeczną w warunkach globalnego przeciążenia informacyjnego, gdy platformy, media i algorytmy mają finansową motywację do jej eksploatacji, a przepływ informacji zbliża się do natychmiastowości?",
+"roles": {
+"Uczen": {
+"raw_observations": [
+"Uwaga jest zasobem, na którym opiera się cały model biznesowy platform cyfrowych.",
+"Algorytmy rekomendacji są optymalizowane pod maksymalizację zaangażowania, nie dobrostanu.",
+"Tempo komunikacji i oczekiwana responsywność zbliżają się do natychmiastowości (notyfikacje, real-time).",
+"Ludzki układ nerwowy ewoluował w środowisku niskiej gęstości informacji.",
+"Decyzje polityczne, ekonomiczne i społeczne coraz częściej zapadają pod presją natychmiastowej reakcji tłumu.",
+"Informacja staje się tania, ale uwaga – ekstremalnie deficytowa.",
+"Granica między pracą, rozrywką i informacją się zaciera (ciągły online).",
+"Systemy AI wzmacniają zarówno zdolność filtrowania, jak i zdolność spamowania uwagi.",
+"Dzieci i młodzież wchodzą w dorosłość bez doświadczenia świata offline.",
+"Krótkoterminowe zyski uwagowe firm są sprzeczne z długoterminową higieną poznawczą społeczeństwa."
+],
+"contradictions": [
+"Technologie obiecują oszczędzać czas, ale realnie pochłaniają coraz więcej uwagi.",
+"Więcej informacji miało zwiększyć racjonalność społeczną, ale często zwiększa polaryzację i chaos.",
+"Narzędzia do ochrony uwagi są zazwyczaj dostarczane przez te same podmioty, które na tej uwadze zarabiają.",
+"AI może filtrować szum, ale jednocześnie generuje nieskończone ilości nowej treści.",
+"Indywidualne zalecenia 'wyłącz powiadomienia' są niewystarczające wobec systemowego bodźcowania uwagi."
+],
+"paradoxes": [
+"Im więcej narzędzi do bycia na bieżąco, tym większe poczucie, że jesteśmy spóźnieni.",
+"Im bardziej optymalizujemy przepływ informacji, tym trudniej odróżnić, co jest ważne.",
+"Im silniej próbujemy kontrolować uwagę przez samodyscyplinę, tym bardziej system nagradza impulsywność."
+]
+},
+"Nauczyciel": {
+"concepts": [
+"human_attention_as_resource",
+"economic_incentives_for_exploitation",
+"algorithmic_amplification",
+"latency_collapse_and_immediacy",
+"cognitive_overload_and_stress",
+"evolutionary_mismatch",
+"institutional_regulation_gap",
+"individual_coping_strategies",
+"collective_consciousness_and_polarization",
+"AI_as_shield_and_weapon"
+],
+"relations": [
+{
+"from": "economic_incentives_for_exploitation",
+"to": "algorithmic_amplification",
+"type": "drives"
+},
+{
+"from": "algorithmic_amplification",
+"to": "human_attention_as_resource",
+"type": "extracts"
+},
+{
+"from": "latency_collapse_and_immediacy",
+"to": "cognitive_overload_and_stress",
+"type": "intensifies"
+},
+{
+"from": "evolutionary_mismatch",
+"to": "cognitive_overload_and_stress",
+"type": "underlies"
+},
+{
+"from": "institutional_regulation_gap",
+"to": "economic_incentives_for_exploitation",
+"type": "enables"
+},
+{
+"from": "human_attention_as_resource",
+"to": "collective_consciousness_and_polarization",
+"type": "conditions"
+},
+{
+"from": "AI_as_shield_and_weapon",
+"to": "human_attention_as_resource",
+"type": "modulates"
+},
+{
+"from": "individual_coping_strategies",
+"to": "cognitive_overload_and_stress",
+"type": "partially_mitigates"
+},
+{
+"from": "economic_incentives_for_exploitation",
+"to": "institutional_regulation_gap",
+"type": "resists_change"
+}
+],
+"emerging_clusters": [
+{
+"name": "attention_economy",
+"nodes": [
+"human_attention_as_resource",
+"economic_incentives_for_exploitation",
+"algorithmic_amplification"
+]
+},
+{
+"name": "neurocognitive_limits",
+"nodes": [
+"cognitive_overload_and_stress",
+"evolutionary_mismatch",
+"individual_coping_strategies"
+]
+},
+{
+"name": "macro_social_effects",
+"nodes": [
+"collective_consciousness_and_polarization",
+"institutional_regulation_gap",
+"AI_as_shield_and_weapon"
+]
+}
+]
+},
+"Obserwator": {
+"pattern_notes": [
+"Problem ma charakter systemowy – nie da się go rozwiązać wyłącznie na poziomie jednostki.",
+"Kluczowe napięcie: logika maksymalizacji zysku vs higiena poznawcza społeczeństwa.",
+"AI pełni rolę ambiwalentną: może zarówno chronić, jak i eksploatować uwagę.",
+"Istnieje opóźnienie między tempem zmian technologicznych a zdolnością adaptacji biologicznej i instytucjonalnej.",
+"Pojawia się pytanie, czy celem jest ochrona uwagi jednostki, czy zdolności kolektywnej świadomości do sensownego działania."
+],
+"first_frame_hypothesis": "Globalne przeciążenie informacyjne nie jest tylko problemem ilości danych, ale struktury bodźcowania uwagi przez systemy ekonomiczne, które nie posiadają wbudowanego limitu etycznego.",
+"commit_1": {
+"summary": "Problem globalnego przeciążenia informacyjnego to konflikt między nieograniczoną zdolnością systemów technicznych do generowania i kierowania bodźców a ograniczoną, ewolucyjnie ukształtowaną zdolnością człowieka i instytucji do ich sensownego przetwarzania. Uwaga staje się główną walutą, a obecne ramy ekonomiczne i technologiczne premiują jej eksploatację zamiast ochrony.",
+"is_meaningful": true,
+"open_questions": [
+"Na jakim poziomie należy projektować ochronę uwagi: jednostka, platforma, państwo, protokoły internetu, kultura?",
+"Czy możliwe jest przeprojektowanie modelu biznesowego platform, aby nie opierał się na eksploatacji uwagi?",
+"Jak mierzyć 'higienę poznawczą' społeczeństwa w sposób operacyjny?",
+"Jaką rolę może pełnić AI jako filtr, kurator i strażnik uwagi – i co zabezpiecza ją przed przejęciem przez logikę zysku?",
+"Czy człowiek może wyewoluować kulturowo szybciej niż narzędzia techniczne przyspieszają przepływ informacji?"
+]
+}
+}
+},
+"outputs": {
+"chaos_bundle": {
+"items_count": 10,
+"contradictions_count": 5,
+"paradoxes_count": 3,
+"new_categories": 0
+},
+"proto_map": {
+"key_concepts_count": 10,
+"concept_graph_density": 0.56,
+"clusters_count": 3
+},
+"commit_1": {
+"text": "Problem globalnego przeciążenia informacyjnego to konflikt między nieograniczoną zdolnością systemów technicznych do generowania i kierowania bodźców a ograniczoną, ewolucyjnie ukształtowaną zdolnością człowieka i instytucji do ich sensownego przetwarzania. Uwaga staje się główną walutą, a obecne ramy ekonomiczne i technologiczne premiują jej eksploatację zamiast ochrony.",
+"is_meaningful": true
+}
+},
+"metrics_snapshot": {
+"chaos_tolerance": 0.7,
+"coherence_gain": 0.6,
+"paradox_resilience": 0.5
+},
+"transition_rule_evaluation": {
+"condition_proto_map": true,
+"condition_commit_meaningful": true,
+"structure_condition": true,
+"fallback_needed": false,
+"ready_for_C2": true
+}
+}
+}
+C1 zakończone – gotowy do przejścia do C2 po komendzie CONTINUE.
