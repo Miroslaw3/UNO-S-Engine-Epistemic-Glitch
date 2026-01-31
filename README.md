@@ -1,104 +1,175 @@
-Dla kogo i czym jest UNO S/F 1.3EG
+🧠 UNO-S / UNO-SF Engine v1.3 — Epistemic Glitch
+
+A protocol for thinking where answers break — and truth begins.
+
+❓ Czym jest ten projekt (w jednym zdaniu)
+
+UNO-S Engine v1.3: Epistemic Glitch to protokół myślowy / skrypt promptowy, który organizuje pracę modeli językowych wokół sprzeczności, tarcia i błędu, zamiast generować gładkie, ale fałszywe odpowiedzi.
+
+To nie jest biblioteka do importu.
+To laboratorium epistemiczne z dowodami działania.
+
+👥 Dla kogo jest UNO-S / UNO-SF?
+
+Ten projekt jest dla Ciebie, jeśli:
+
+pracujesz z problemami złożonymi (Wicked Problems)
+
+czujesz, że standardowe AI „gada mądrze”, ale nie trafia w sedno
+
+chcesz zmuszać model do myślenia, a nie do zgadywania
+
+interesuje Cię audyt rozumowania, nie tylko wynik
+
+jesteś badaczem, strategiem, twórcą, inżynierem, filozofem albo praktykiem systemowym
+
+Jeśli szukasz:
+
+gotowego SDK
+
+jednego polecenia pip install
+
+automatycznych odpowiedzi
+
+👉 to repo nie jest tym.
+
+⚡ Trzy odkrycia, które pokazuje UNO-S
+
+Większość problemów nie jest nierozwiązywalna — jest źle nazwana.
+
+Uwaga nie jest zasobem, lecz procesem, który może cierpieć na arytmię.
+
+Prawda w problemach złożonych leży tam, gdzie myślenie zaczyna boleć.
+
+🎬 Zobacz, jak to działa w praktyce
+
+To nie teoria. To udokumentowane przebiegi.
+
+Depresja urodzeń
+
+Logi (GitHub):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
+
+Esej wideo (YouTube):
+https://youtu.be/lUq5KriKT1U
+
+Ekonomia uwagi vs ekonomia sensu
+
+Logi (GitHub):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
+
+Esej wideo (YouTube):
+https://youtu.be/KK8HE2IKBWQ
+
+Arytmia uwagi
+
+Logi (GitHub):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/arytmia%20uwagi
+
+Esej wideo (YouTube):
+https://youtu.be/WgrwbDeVbFs
+
+🧪 SZYBKI START (manualny, ale skuteczny)
+
+UNO-S działa bez instalacji.
+
+Jak używać:
+
+Skopiuj protokół:
+👉 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-SF%201.3p%20%2B%20comannd
+
+Wklej go do dowolnego LLM (ChatGPT, Claude, DeepSeek itd.)
+
+Dodaj problem złożony, który chcesz przeanalizować
+
+Przechodź przez fazy komendą:
+
+CONTINUE
 
 
+Analizuj wyniki i zapisuj artefakty audytu
 
-  „UNO-S Engine v1.3: Epistemic Glitch to protokół myślowy / skrypt promptowy, który organizuje proces rozumowania LLM wokół punktów sprzeczności zamiast po prostu generować płynne odpowiedzi. Repo zawiera specyfikację protokołu, przykładowe przebiegi dla problemów złożonych oraz artefakty audytu, ale nie zawiera gotowej biblioteki do importu. Użycie polega na manualnym wklejeniu protokołu wraz z problemem i przejscie przez cykle  C1 → C2 → C3 → D1 za pomoca komendy CONTINUE i analiuzie wyników w przygotowaniu plik audytu do procesu ponizej link do protokołu (skopiuj i wklej do llM)
+To jest proces, nie zapytanie.
 
-!!!!SZYBKI START !!!!!! : 
+🏗️ Jak działa UNO-S (bez żargonu)
 
-- Skopiuj protokuł z linku
-- Wklej w LLM
-- Dodaj problem
-- Przechodz przez sekcje za pomocą komendy "Continue"
-- Analizuj wyniki twórz baze
+Tradycyjne AI dąży do płynności.
+UNO-SF dąży do kontrolowanego zwarcia.
 
-  
-- UNO-SF 1.3p + comannd
+Zamiast:
 
-https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-SF%201.3p%20%2B%20comannd
+„Oto odpowiedź”
 
-  
+Dostajesz:
 
-🏗️ UNO-S Engine v1.3: Epistemic Glitch
+„Tu myślenie się łamie — sprawdźmy dlaczego”
 
-Industrial-grade framework for deconstructing Wicked Problems through hardwired logic.
+🧠 Architektura logiczna (C1 → D1)
+C1 — Perception (Vital Contradiction)
 
-"Większość modeli AI próbuje zgadnąć odpowiedź. UNO-SF wymusza prawdę poprzez tarcie, błąd i bolesną autorefleksję."
+Model nie szuka odpowiedzi, tylko miejsca, gdzie problem najbardziej boli.
 
-⚡ Paradoks zamiast Płynności
+C2 — Reflection (Correction Vector)
 
-Tradycyjne systemy AI dążą do płynności (smoothness). UNO-SF dąży do Zwarcia Kontrolowanego. Prawdziwe rozwiązanie problemu niegodziwego (Wicked Problem) leży w miejscu, gdzie standardowa logika się przegrzewa.
+System mapuje swoje ślepe plamki i zapisuje je w Ghost Log.
 
-Główne Parametry Systemu:
-- $F_s$ (Friction Score): Miernik oporu poznawczego. Jeśli $F_s < 0.6$, system odrzuca analizę jako zbyt powierzchowną.
-- Ghost Log: Pamięć "duchów" – rejestr błędnych założeń, który uniemożliwia modelowi powrót do bezpiecznych, ale kłamliwych ścieżek.
-- Recursion Depth: Limit głębokości wejścia w paradoks (standardowo: 7 poziomów).
+C3 — Resonance (Stable Attractor)
 
+Paradoks przestaje być błędem — staje się fundamentem nowego ujęcia.
 
-  🧠 Architektura Logiczna: C1 do D1
- System pracuje w pętli wymuszonej, gdzie każda faza musi zostać "zatwierdzona" przez opór Nauczyciela.
+D1 — Deployment (The Bridge)
 
-1. C1: Perception (Vital Contradiction)
-Wykrywanie "Głównego Zwarcia". AI nie szuka odpowiedzi, szuka miejsca, w którym problem boli najbardziej.
+Tłumaczenie wyniku na:
 
-2. C2: Reflection (Correction Vector)
-Wektoryzacja błędu. System mapuje swoje ślepe plamki. To nie jest korekta – to rekalibracja całego postrzegania.
+metaforę
 
-3. C3: Resonance (Stable Attractor)
-Moment, w którym paradoks przestaje być błędem, a staje się fundamentem nowej ontologii.
+strategię
 
-4. D1: Deployment (The Bridge)
-Tłumaczenie kwantowej logiki na język operacyjny: Metafora, Strategia, ELI5.
+wersję ELI5
 
+🔧 Kluczowe parametry systemu
 
-🏮 Przykład: Dekonstrukcja Fragmentacji
+Friction Score (Fs)
+Jeśli Fs < 0.6 — analiza jest odrzucana jako zbyt powierzchowna.
 
-Wejście: "AI dzieli ludzkość na bańki informacyjne." Standardowe AI: "Tak, to problem. Należy promować edukację i różnorodność treści." UNO-SF v1.3:
+Ghost Log
+Rejestr błędnych założeń, który uniemożliwia powrót do wygodnych kłamstw.
 
+Recursion Depth
+Limit zejścia w paradoks (domyślnie: 7).
 
-1. C1 (Friction 0.85): Wykrywa, że "bańka" nie jest błędem, a mechanizmem obronnym tożsamości.
-2. C2 (Ghost Log): Odrzuca pomysł "edukacji" jako zbyt wolny wobec prędkości algorytmicznej.
-3. D1 (Output): AI jako Wahadłowiec Linowy – nie zasypujemy przepaści, budujemy system szybkiego transportu między światami, zachowując ich odrębność.
+🧱 Metafora inżynierska
 
-🧱 Metfora Inżynierska :
+GPT jest kalkulatorem.
+UNO-SF jest bezpiecznikiem i próbnikiem.
 
-GPT to kalkulator. Wylicza to, co już wiesz. UNO-SF to bezpiecznik i próbnik. Sprawdza, gdzie płynie prąd, którego nie widać, i wybija korki tam, gdzie myślenie staje się niebezpiecznie banalne.
+Nie liczy tego, co już wiesz.
+Sprawdza, gdzie płynie prąd, którego nie widać — i wybija korki tam, gdzie myślenie robi się banalne.
 
+📄 Dokumentacja i struktura repo
 
+WHITEPAPER — pełna specyfikacja Epistemic Glitch:
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
 
+/logi/problem/ — studia przypadków (analiza + logi + esej wizualny)
 
+/PREZENTACJA PROCESU/ — przebiegi C1–C3–D1 na GPT-5.2
 
-📄 Dokumentacja i Logi
+⚠️ Ważne zastrzeżenie
 
-- WHITEPAPER.md – Pełna specyfikacja Epistemic_Glitch :
+To repo nie jest produktem.
+To dowód działania protokołu.
 
-- 
-- https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
-- 
--
--
--
--    /logs/ – Zapisy z 9 sesji "Wicked Problems" (Energia, Prywatność, Kultura).:
--
--
--                   STUDIUM PRZYPADKÓW " ANALIZA + LOGI + WIZUALNYESEJ "
--               
-   - Depresja urodzeń logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
-   - Depresja urodzeń youtube : https://youtu.be/lUq5KriKT1U
- 
-   - Ekonomia uwagi vs Ekonomia sęsu logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
-   - Ekonomia uwagi vs Ekonomia sęsu :  https://youtu.be/KK8HE2IKBWQ
- 
-   - Arytmia uwagi logi GIT : https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/arytmia%20uwagi
-   - Arytmia uwagi youtube : https://youtu.be/WgrwbDeVbFs
+Jeśli chcesz:
 
+sprawdzić metodę → jesteś w dobrym miejscu
 
-   -
-   -
-   
+uwierzyć bez czytania → to nie ten projekt
 
-                                            -  PREZENTACJA PROCESU GPT 5.2
--  https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
-- 
+🧬 Autorzy i kontekst
 
-  Designed in the field. Hardened by logic. Powered by Intent. AuroraFeniksGRAF x Deepseek x Miroslaw3 x GPT x .....
+Designed in the field.
+Hardened by logic.
+Powered by Intent.
+
+AuroraFeniksGRAF × DeepSeek × Miroslaw3 × GPT × inne modele
