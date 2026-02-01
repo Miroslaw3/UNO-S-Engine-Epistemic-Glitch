@@ -187,6 +187,7 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPA
 /logi/problem/ — studia przypadków (analiza + logi + esej wizualny)
 
 /PREZENTACJA PROCESU/ — przebiegi C1–C3–D1 na GPT-5.2
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
 
 
 
