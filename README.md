@@ -185,6 +185,7 @@ WHITEPAPER — pełna specyfikacja Epistemic Glitch:
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPAPER
 
 /logi/problem/ — studia przypadków (analiza + logi + esej wizualny)
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi
 
 /PREZENTACJA PROCESU/ — przebiegi C1–C3–D1 na GPT-5.2
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/PREZENTACJA%20PROCESU
