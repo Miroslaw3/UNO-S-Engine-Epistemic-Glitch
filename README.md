@@ -69,6 +69,19 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo (YouTube):
 https://youtu.be/WgrwbDeVbFs
 
+Kryzys energetyczny 
+
+Logi(GitHub):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/kryzys%20energetyczny
+
+Esej wideo (YouTube):
+https://youtu.be/hbV1W7tc4SU
+
+Wieczny problem prywatności
+
+Logi(GitHab):
+
+
 🧪 SZYBKI START (manualny, ale skuteczny)
 
 UNO-S działa bez instalacji.
