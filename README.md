@@ -188,6 +188,8 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/blob/main/UNO-WHITEPA
 
 /PREZENTACJA PROCESU/ — przebiegi C1–C3–D1 na GPT-5.2
 
+
+
 ⚠️ Ważne zastrzeżenie
 
 To repo nie jest produktem.
