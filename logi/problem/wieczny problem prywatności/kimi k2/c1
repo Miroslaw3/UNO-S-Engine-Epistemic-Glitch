@@ -1,0 +1,50 @@
+KIMI K2 UNO-S C1
+{
+"problem": "Wieczny Problem Prywatności: Czy prywatność jest absolutem, czy iluzją? Jak modele negocjują między bezpieczeństwem a wolnością?",
+"cycle": "C1_perception",
+"roles": {
+"Uczeń": "Zbiera dane, sprzeczności i paradoksy bez oceniania.",
+"Nauczyciel": "Porządkuje dane w koncepty i relacje.",
+"Obserwator": "Tworzy commit_1 – pierwszy sensowy opis problemu."
+},
+"outputs": {
+"chaos_bundle": [
+"1. „Nie mam nic do ukrycia” vs „Nie wiem, co będzie nielegalne jutro.”",
+"2. RODO vs TikTok – ten sam użytkownik, dwa światy regulacji.",
+"3. Szyfrowanie E2E chroni dziennikarzy, ale też pedofili.",
+"4. Apple CSAM-scan: lokalny AI-detektor = tylna furtka?",
+"5. Zero-knowledge-proof: weryfikuj bez ujawniania – czy to jeszcze prywatność?",
+"6. Smart-city: twarz 5G = bilet autobusowy, ale też ślad policyjny.",
+"7. Deepfake = koniec dowodu wideo; prywatność staje się niewiarygodnością.",
+"8. „Consent fatigue” – 99 % klika „zgoda” bez czytania.",
+"9. Dane są nową ropą: kto je wydobywa, ten rządzi.",
+"10. Model predykcyjny wie, że jesteś w ciąży wcześniej niż Ty sama."
+],
+"proto_map": {
+"core_axis": "bezpieczeństwo ↔ wolność",
+"zones": {
+"absolute_privacy": ["zero-knowledge", "homomorficzne_szyfrowanie", "off-grid"],
+"conditional_privacy": ["RODO", "consent banners", "differential privacy"],
+"illusory_privacy": ["dark-patterns", „surveillance capitalism", „data-as-oil"],
+"security_override": ["CSAM-scan", „lawful interception", „backdoor debate"],
+"paradoxes": [
+"knowledge-without-knowledge (ZKP)",
+"public-yet-private (blockchain)",
+"private-yet-surveilled (smartphone)"
+]
+},
+"tensions": [
+"individual autonomy vs collective safety",
+"present consent vs future use-cases",
+"state sovereignty vs global tech platforms",
+"human dignity vs algorithmic efficiency"
+]
+},
+"commit_1": "Problem prywatności nie jest binary: absolut vs iluzja. Jest raczej dynamicznym polem naprężeń, w którym każda „gwarancja” prywatności jednocześnie ujawnia nowy wektor ataku lub kontroli. Prywatność okazuje się być procesem negocjacji między trzema aktorami: jednostką, grupą społeczną i infrastrukturą technologiczną – przy czym infrastruktura zawsze przesuwa balans w czasie, czyniąc wcześniejsze zgody nieaktualnymi."
+},
+"transition_rule": {
+"condition": "proto_map zawiera >= 5 kluczowych pojęć OR commit_1 jasno definiuje sens OR chaos_bundle nie generuje nowych kategorii",
+"status": "transition_to_C2",
+"reason": "10 sprzeczności, 5 stref, 4 naprężenia – wystarczający materiał na autorefleksję."
+}
+}
