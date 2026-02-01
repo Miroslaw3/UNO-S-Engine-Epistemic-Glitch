@@ -122,7 +122,7 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 
 Esej wideo(YouTube):
 https://youtu.be/ZB7euINNWqY
--
+
 
 🧪 SZYBKI START (manualny, ale skuteczny)
 
