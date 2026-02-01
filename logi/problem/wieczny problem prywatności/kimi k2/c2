@@ -1,0 +1,49 @@
+{
+"problem": "Wieczny Problem Prywatności",
+"cycle": "C2_autoreflection",
+"input_from_C1": {
+"commit_1": "Prywatność jest procesem negocjacji między jednostką, grupą a infrastrukturą; każda gwarancja jednocześnie otwiera nowy wektor kontroli."
+},
+"roles": {
+"Uczeń": "Formułuje tezy i hipotezy na podstawie proto_map.",
+"Nauczyciel": "Podważa tezy kontrfaktycznie, tworzy refactored_models.",
+"Obserwator": "Tworzy commit_2 – opis ślepych plamek i limitów obecnej ramy."
+},
+"outputs": {
+"hypotheses": [
+"H1. Prywatność jest własnością infrastruktury, nie jednostki.",
+"H2. Im więcej prywatności technicznej, tym więcej zaufania do niej, a tym mniej kontroli społecznej – efekt „czarnej skrzynki”.",
+"H3. Bezpieczeństwo zbiorowe jest funkcją niepewności prywatności jednostki (im mniej wiem o tobie, tym bardziej się boję).",
+"H4. Zgoda informatyczna jest asymptotycznie niemożliwa: przyszłe zastosowania danych są niewyobrażalne w chwili zgody.",
+"H5. Paradoks: tylko całkowicie przezroczysty człowiek może być całkowicie niewidzialny (dane muszą być jawne, by system je pominął)."
+],
+"refactored_models": {
+"M1_privacy_as_infrastructure": {
+"assumption": "Prywatność = włącznik użytkownika (cookie banner).",
+"counterfactual": "Wyobraź sobie, że wszystkie urządzenia są open-hardware i open-source. Czy użytkownik ma wtedy *więcej* czy *mniej* prywatności? Okazuje się, że bez zamkniętego IP, powstaje nowa forma presji społecznej: „jeśli nie chcesz się ujawniać, musisz się ukrywać” – prywatność staje się deviancką, aktywną strategią, a nie domyślną.",
+"blind_spot": "Ignorujemy, że prywatność potrzebuje *tarczy prawnej*, nie tylko *narzędzia kryptograficznego*."
+},
+"M2_security_vs_freedom_linear": {
+"assumption": "Oś bezpieczeństwo-wolność jest liniowa: przesuwam suwak w lewo → więcej bezpieczeństwa.",
+"counterfactual": "Model „kontrola-zaufanie-paranoja”. Po pewnym progu nadmiaru kontroli wzrasta paranoja, co *zmniejsza* bezpieczeństwo subiektywne i wzmacnia zachowania ryzykowne (np. ucieczka w ciemne sieci).",
+"blind_spot": "Bezpieczeństwo jest emergentne: zależy od *poczucia* przestrzeni prywatnej, nie od samej kontroli."
+},
+"M3_consent_future": {
+"assumption": "RODO rozwiąże problem przez „informowanie”.",
+"counterfactual": "Wyobraź sobie świat, w którym każda nowa usługa musi uzyskać *ponowną* zgodę od wszystkich użytkowników, którzy kiedykolwiek dostarczyli dane. System się zapada – zgoda staje się *czynnikiem blokującym innowację*. Wynika z tego, że *prawo do bycia zapomnianym* jest sprzeczne z *prawem do bycia pamiętanym* przez innych ludzi.",
+"blind_spot": "Czas: prywatność jest negocjowana *ex post*, nie *ex ante*."
+},
+"M4_paradox_of_perfect_encryption": {
+"assumption": "Perfect encryption = perfect privacy.",
+"counterfactual": "Całkowite szyfrowanie powoduje, że *meta-dane* (kto, kiedy, z kim) stają się *jedynym* towarem. Paradoks: im lepsze szyfrowanie treści, tym większa wartosć samego faktu komunikacji – powstaje „czarna skrzynka” jako obiekt pragnienia instytucji.",
+"blind_spot": "Prywatność treści ≠ prywatność relacji; skupiamy się na pierwszej, zapominając o drugiej."
+}
+},
+"commit_2": "Dotychczasowa rama utrzymuje iluzję, że prywatność jest własnością jednostki i że da się ją „ustawić” raz na zawsze. Ślepe plamki: (1) ignorowanie czasu – zgoda nie ogarnia przyszłości; (2) ignorowanie relacji – meta-dane są towarem niezależnie od treści; (3) ignorowanie emocjonalnego wymiaru bezpieczeństwa – paranoja rośnie nadmiarem kontroli; (4) ignorowanie, że infrastruktura sama *produkuje* nowe kategorie danych, więc nawet „open-source” nie wyzwala, lecz przesuwa pole gry. Najgłębsza sprzeczność: „prawo do prywatności” zakłada jednostkę jako *punkt* – tymczasem jednostka jest *grafem* w czasie, a prywatność jest emergentną własnością całej sieci, nie wierzchołka."
+},
+"transition_rule": {
+"condition": "refactored_models ujawnia ślepą plamkę OR commit_2 wykazuje nienaprawialną sprzeczność OR wykonano >= 2 skuteczne kontrfaktyczne demontaże",
+"status": "transition_to_C3",
+"reason": "Wykryto 4 nieusuwalne sprzeczności; konieczna zmiana ramy."
+}
+}
