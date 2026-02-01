@@ -12,6 +12,8 @@ Mejnstrim mówi: Prywatność to Twoje prawo własności do danych, zarządzane 
 
 
 
+
+
 🧠 UNO-S / UNO-SF Engine v1.3 — Epistemic Glitch
 
 A protocol for thinking where answers break — and truth begins.
