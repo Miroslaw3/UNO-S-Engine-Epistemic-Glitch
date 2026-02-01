@@ -41,11 +41,15 @@ Uwaga nie jest zasobem, lecz procesem, który może cierpieć na arytmię.
 
 Prawda w problemach złożonych leży tam, gdzie myślenie zaczyna boleć.
 
+
+
+
 🎬 Zobacz, jak to działa w praktyce
 
 To nie teoria. To udokumentowane przebiegi.
 
-Depresja urodzeń
+
+1 - Depresja urodzeń
 
 Logi (GitHub):
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/depresja%20urodze%C5%84
@@ -53,7 +57,9 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo (YouTube):
 https://youtu.be/lUq5KriKT1U
 
-Ekonomia uwagi vs ekonomia sensu
+
+
+2 - Ekonomia uwagi vs ekonomia sensu
 
 Logi (GitHub):
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/ekonomia%20uwagi%20vs%20ekonomia%20sensu
@@ -61,7 +67,9 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo (YouTube):
 https://youtu.be/KK8HE2IKBWQ
 
-Arytmia uwagi
+
+
+3 - Arytmia uwagi
 
 Logi (GitHub):
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/arytmia%20uwagi
@@ -69,7 +77,9 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo (YouTube):
 https://youtu.be/WgrwbDeVbFs
 
-Kryzys energetyczny 
+
+
+4 - Kryzys energetyczny 
 
 Logi(GitHub):
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/kryzys%20energetyczny
@@ -77,7 +87,9 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo (YouTube):
 https://youtu.be/hbV1W7tc4SU
 
-Wieczny problem prywatności
+
+
+5 - Wieczny problem prywatności
 
 Logi(GitHab):
 https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/wieczny%20problem%20prywatno%C5%9Bci/kimi%20k2
@@ -85,6 +97,10 @@ https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/proble
 Esej wideo(YouTube):
 https://youtu.be/rNBbJ1Jwgjc`
 
+
+
+-
+-
 
 🧪 SZYBKI START (manualny, ale skuteczny)
 
