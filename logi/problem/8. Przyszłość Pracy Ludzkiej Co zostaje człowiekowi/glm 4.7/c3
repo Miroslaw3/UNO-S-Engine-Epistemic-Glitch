@@ -1,0 +1,30 @@
+GLM 4.7 "C3"
+{
+"phase": "C3_recontextualization",
+"uno_s_engine_version": "1.3",
+"status": "completed",
+"input_commit": "commit_2",
+"roles": {
+"Uczen": {
+"frame_question": "Jeśli produkcja jest zautomatyzowana, a symulacja doskonała, po co nam 'skóra'? Czy gra wciąż polega na wygrywaniu, czy na doświadczaniu przegranej?"
+},
+"Nauczyciel": {
+"new_frame": {
+"name": "Ontologia Skończoności (Ontology of Finitude)",
+"axiom": "Nieskończoność (AI/Symulacja) nie ma znaczenia bez punktu odniesienia, który ma koniec."
+},
+"definition": "Stara rama: Człowiek jako Twórca (Homo Faber). Nowa rama: Człowiek jako Świadek/Nośnik Konsekwencji (Homo Patiens). Wartość człowieka nie w tym, co *generuje*, ale w tym, co *ponosi*. AI może symulować ból, ale nie może go *odczuć*. Człowiek jest jedynym 'wlocem' przez który abstrakcja staje się rzeczywistością poprzez stratę i ból."
+},
+"Obserwator": {
+"commit_3": {
+"identity": "Człowiek jako Fizyczny Kotwiczznik Znaczenia (Reality Anchor).",
+"description": "To, co zostaje człowiekowi, to prawo i obowiązek bycia podmiotem doświadczającym. Jesteśmy 'twardym dyskiem' dla historii, której symulacja nie dotyka. Naszą rolą jest bycie 'miękkim podłożem', które przyjmuje upadek, dając ciężar istnieniu."
+},
+"stability_score": 0.92
+}
+},
+"termination_rule_check": {
+"similarity_to_previous": "N/A (First pass)",
+"recursion_needed": false
+}
+}
