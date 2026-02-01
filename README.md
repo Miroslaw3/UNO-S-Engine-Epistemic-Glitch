@@ -115,7 +115,13 @@ https://youtu.be/rNBbJ1Jwgjc`
 
 
 
--
+6 - Przyszlość pracy ludzkiej , co zostanie człowiekowi
+
+logi(GitHab):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/%20Przysz%C5%82o%C5%9B%C4%87%20Pracy%20Ludzkiej%20Co%20zostaje%20cz%C5%82owiekowi
+
+Esej wideo(YouTube)
+https://youtu.be/ZB7euINNWqY
 -
 
 🧪 SZYBKI START (manualny, ale skuteczny)
