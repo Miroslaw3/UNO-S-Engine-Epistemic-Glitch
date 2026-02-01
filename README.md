@@ -124,7 +124,7 @@ Esej wideo(YouTube):
 https://youtu.be/ZB7euINNWqY
 
 
-🧪 SZYBKI START (manualny, ale skuteczny)
+*** 🧪 SZYBKI START (manualny, ale skuteczny) ***
 
 UNO-S działa bez instalacji.
 
