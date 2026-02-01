@@ -1,0 +1,30 @@
+CLAUDE 4.5 SONNET "C1"
+{
+"uno_s_engine": {
+"version": "1.3",
+"codename": "Epistemic_Glitch",
+"run": {
+"recursion_depth": 0,
+"ghost_log": []
+},
+"cycles": {
+"C1_perception": {
+"Uczen": {
+"chaos_bundle": "Narracje o przyszłości pracy rozpadają się na dwa ekstrema: (1) Technologiczny utopizm - 'AI i automatyzacja uwolnią ludzi od pracy drudgery, pozostawiając czas na kreatywność i samorealizację'; (2) Dystopia wyparcia - 'Maszyny zabiorą wszystkie prace, ludzie staną się ekonomicznie zbędni'. Między nimi: (3) Hybrydyzacja - 'Ludzie i maszyny będą współpracować'. Ale te narracje unikają centralnego pytania.",
+"vital_contradiction": "Jeśli 'wartość człowieka' była historycznie mierzona jego produktywnością ekonomiczną (praca = godność = przetrwanie), a automatyzacja systematycznie eliminuje ludzką przewagę produktywną, to: Czy pytanie 'Co zostaje człowiekowi?' zakłada, że człowiek MUSI coś 'zostawać' w systemie wartości zdefiniowanym przez produktywność? Sprzeczność: Szukamy ROLI dla człowieka w systemie, który sam definiuje wartość przez użyteczność - ale co jeśli system jest problemem, nie rozwiązaniem?"
+},
+"Nauczyciel": {
+"verification": "Sprzeczność jest realna, nie językowa. To nie jest spór o definicje 'pracy', ale kolizja ontologiczna: system kapitalistyczny wymaga produktywności jako podstawy dystrybucji zasobów, ale technologia podważa ludzką monopol na produktywność. Friction_score: 0.85 - wysoki ból poznawczy, bo dotyka fundamentów 'człowiek jako homo economicus'."
+},
+"Obserwator": {
+"commit_1": "Problem 'Co zostaje człowiekowi?' jest źle postawiony. Rzeczywiste napięcie: System ekonomiczny wymaga, by ludzie byli produktywni, aby przetrwać (dostęp do zasobów via praca), ale technologia czyni tę produktywność przestarzałą. Pytanie nie brzmi 'co nam zostaje', ale 'czy system wartości oparty na produktywności ekonomicznej przetrwa własną technologiczną negację?'"
+},
+"metrics": {
+"friction_score": 0.85,
+"is_binary_exclusive": true
+}
+}
+},
+"transition": "Warunki C1 spełnione. Czekam na komendę 'CONTINUE' przed przejściem do C2."
+}
+}
