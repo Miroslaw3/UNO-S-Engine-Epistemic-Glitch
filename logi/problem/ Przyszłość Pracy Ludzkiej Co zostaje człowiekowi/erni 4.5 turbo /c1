@@ -1,0 +1,27 @@
+ERNI 4.5 TURBO "C1"
+json
+{
+"uno_s_engine": {
+"version": "1.3",
+"codename": "Epistemic_Glitch",
+"run": {
+"recursion_depth": 0,
+"ghost_log": []
+},
+"cycles": {
+"C1_perception": {
+"Uczen": {
+"chaos_bundle": "Przyszłość pracy ludzkiej jest niepewna z powodu automatyzacji, AI i zmian ekonomicznych. Narracje zderzają się: jedni mówią o 'koncu pracy', inni o 'nowych możliwościach'.",
+"vital_contradiction": "Czy technologia eliminuje pracę, czy tworzy nowe rodzaje zaangażowania?"
+},
+"Nauczyciel": {
+"verification": "Sprzeczność jest realna, nie tylko językowa. Friction_score: 0.8."
+},
+"Obserwator": {
+"commit_1": "System pracy ludzkiej jest w napięciu między destrukcją a transformacją przez technologię."
+}
+},
+"transition_C1_to_C2": "Przechodzę do C2."
+}
+}
+}
