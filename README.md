@@ -80,6 +80,10 @@ https://youtu.be/hbV1W7tc4SU
 Wieczny problem prywatności
 
 Logi(GitHab):
+https://github.com/Miroslaw3/UNO-S-Engine-Epistemic-Glitch/tree/main/logi/problem/wieczny%20problem%20prywatno%C5%9Bci/kimi%20k2
+
+Esej wideo(YouTube):
+https://youtu.be/rNBbJ1Jwgjc`
 
 
 🧪 SZYBKI START (manualny, ale skuteczny)
