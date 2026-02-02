@@ -1,0 +1,34 @@
+Grok "C1"
+{
+"phase": "C1_perception",
+"roles": {
+"Uczen": {
+"chaos_bundle": [
+"Demokracja liberalna promuje wolność jednostki i pluralizm, ale prowadzi do polaryzacji i paraliżu decyzyjnego gdy opinie są skrajnie podzielone.",
+"Równość głosów (one person one vote) stoi w konflikcie z nierównością zasobów, wiedzy i wpływów (bogaci, media, korporacje dominują agendę).",
+"Reprezentacja przez partie/elity ma zapewniać stabilność, ale coraz częściej produkuje alienację i utratę zaufania (populizm, anty-establishment).",
+"Otwartość na zmiany (demokracja deliberatywna, cyfrowa) grozi manipulacją, dezinformacją i erozją faktów (post-prawda, algorytmy uwagi).",
+"Demokracja wymaga powszechnego zaangażowania, ale większość obywateli jest apatyczna lub racjonalnie ignorantna.",
+"Globalne wyzwania (klimat, AI, migracje) wymagają koordynacji ponadnarodowej, ale suwerenność narodowa i short-termism wyborczy blokują działanie."
+],
+"friction_score": 0.92
+},
+"Nauczyciel": {
+"verification": "Sprzeczności nie są wyłącznie językowe ani powierzchowne – uderzają w sam rdzeń mechanizmów legitymizacji i stabilności systemu. To nie 'wady implementacji', lecz napięcia wpisane w ontologię demokracji przedstawicielskiej w epoce złożoności i przyspieszenia.",
+"vital_contradiction": "Demokracja musi maksymalizować inkluzywność i responsywność (równość + deliberacja + zmiana), ale im bardziej to robi, tym silniej destabilizuje samą siebie poprzez polaryzację, capture przez elity i erozję zdolności do kolektywnego działania długoterminowego. Innymi słowy: im bardziej demokratyczna, tym mniej stabilna; im bardziej stabilna, tym mniej demokratyczna."
+},
+"Obserwator": {
+"commit_1": {
+"vital_tension": "Inkluzywność ↔ Stabilność (samonapędzająca się pętla erozji legitymizacji)",
+"is_binary_exclusive": true,
+"friction_score": 0.92,
+"summary": "System musi być otwarty na głos wszystkich, ale otwartość ta niszczy jego zdolność do trwałego rozwiązywania problemów, co z kolei podważa wiarę w system i popycha do autorytaryzmu lub apatii."
+}
+}
+},
+"metrics": {
+"chaos_tolerance": "high",
+"paradox_resilience": "constructive – paradoks jest generatywny dla poszukiwań"
+}
+}
+Przechodzę do C2 – proszę o CONTINUE
