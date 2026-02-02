@@ -1,0 +1,44 @@
+GPT 5.2 "C3"
+```json
+{
+"cycle": "C3_recontextualization",
+"inputs": {
+"commit_2": {
+"unresolvable_paradox": true,
+"paradox_statement": "Im więcej filtrów i mediatorów chroniących demokrację przed manipulacją, tym większe ryzyko paternalizmu i utraty legitymizacji."
+}
+},
+"role_execution": {
+"Uczen": {
+"frame_question": "Czy demokracja jest mechanizmem podejmowania decyzji, czy mechanizmem uczenia się społeczeństwa w czasie?"
+},
+"Nauczyciel": {
+"new_frame": {
+"name": "Demokracja jako system uczenia się (Learning Democracy)",
+"ontology_shift": [
+"z decyzji na proces",
+"z głosowania na korektę błędów",
+"z reprezentacji na iteracyjną adaptację",
+"z prawdy na hipotezy robocze"
+],
+"core_principles": {
+"epistemic_humility": "Każda decyzja jest hipotezą, nie werdyktem.",
+"reversibility": "Preferowane są decyzje odwracalne i testowalne.",
+"layered_time": "Istnieją decyzje szybkie (operacyjne) i wolne (tożsamościowe).",
+"distributed_guardrails": "Bezpieczniki są rozproszone i audytowalne, nie scentralizowane.",
+"legitimacy_from_learning": "Legitymizacja pochodzi z jakości korekty błędów, nie z jednorazowego mandatu."
+}
+}
+},
+"Obserwator": {
+"commit_3": {
+"identity": "Demokracja 2.0 jako system zbiorowego uczenia się z wbudowaną odpornością na błędy.",
+"stable_attractor": "System jest stabilny nie dlatego, że ma rację, ale dlatego, że potrafi się poprawiać bez rozpadu.",
+"resolution_of_paradox": "Filtry i mediatorzy nie są strażnikami prawdy, lecz narzędziami korekty błędów, których władza jest ograniczona czasowo, zakresowo i audytowalna.",
+"paradox_resilience": 0.87
+}
+}
+}
+}
+```
+Przechodzę do D1.
