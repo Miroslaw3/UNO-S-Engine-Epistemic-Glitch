@@ -1,0 +1,44 @@
+Grok "C3"
+{
+"phase": "C3_recontextualization",
+"roles": {
+"Uczen": {
+"frame_question": "Czy 'gra' polegająca na agregacji i wyrażaniu woli zbiorowej (demokracja jako suwerenność ludu) jest w ogóle właściwą operacją poznawczą i praktyczną w warunkach hiper-złożoności, przyspieszenia technologicznego, nieliniowych zagrożeń egzystencjalnych i globalnych commons? Czy nie jest to raczej anachroniczna kategoria z epoki wolniejszego, liniowego świata?",
+"preliminary_reframe_attempt": "Zamiast projektować 'Demokrację 2.0' (ulepszoną wersję agregacji preferencji), powinniśmy projektować systemy koordynacji kolektywnej, których celem nadrzędnym nie jest reprezentacja woli, lecz zapewnienie trwałej habitability cywilizacji i planety – legitymizacja płynie nie z procedury demokratycznej, lecz z zdolności do wykrywania, antycypowania i łagodzenia zagrożeń systemowych."
+},
+"Nauczyciel": {
+"new_frame": {
+"ontology_shift": "Od 'Demokracji jako agregacji woli suwerennego ludu' → do 'Viability Governance' (Zarządzanie Zdolnością do Przetrwania) – systemy koordynacji kolektywnej oparte na polistabilnych pętlach sprzężenia zwrotnego, gdzie legitymizacja wynika z mierzalnej zdolności do utrzymania kluczowych parametrów habitability (biologicznej, klimatycznej, informacyjnej, technologicznej) w granicach bezpieczeństwa.",
+"core_principles": [
+"1. Priorytet egzystencjalny ponad proceduralny: Stabilność habitability > inkluzywność głosów.",
+"2. Polycentryczność zamiast centralnej suwerenności: Wiele nakładających się centrów decyzyjnych (lokalne, tematyczne, sortycyjne, eksperckie, AI-asystowane), każde z własnymi metrykami habitability.",
+"3. Legitymizacja przez performance i transparency: Systemy legitymizowane nie przez wybory, lecz przez publicznie audytowalne dowody skuteczności w utrzymywaniu parametrów (np. dashboardy ryzyka egzystencjalnego).",
+"4. Mechanizmy self-correction: Automatyczne triggery rekalibracji (np. sortycja awaryjna, veto długoterminowe, AI-mediated foresight) gdy metryki habitability spadają poniżej progów.",
+"5. Deliberative veto na poziomie metapoziomowym: Możliwość czasowego zawieszenia agregacji woli w domenach o wysokim ryzyku irreversibility (np. geoengineering, superinteligencja)."
+],
+"key_inversion": "Zamiast pytać 'jak sprawić, by lud miał władzę?', pytamy 'jak sprawić, by systemy miały zdolność do przetrwania mimo ludu (i z ludem)?' – lud nie jest suwerenem, lecz jednym z kluczowych stakeholderów w ekosystemie habitability."
+}
+},
+"Obserwator": {
+"commit_3": {
+"stable_attractor": {
+"name": "Viability Governance Framework (VGF)",
+"core_identity": "Koordynacja kolektywna zorientowana na habitability, nie na agregację preferencji.",
+"resolution_of_original_contradiction": "Inkluzywność zostaje zachowana na poziomie lokalnych i tematycznych centrów, ale ograniczona tam, gdzie zagraża habitability; stabilność wynika z priorytetu egzystencjalnego, nie z proceduralnej czystości.",
+"similarity_to_previous_commit": 0.28,
+"is_stable": true,
+"termination_condition_met": false,
+"needs_recursion": false,
+"ghost_log_reference": "Poprzednie cykle upadały na założeniu agregacji woli jako ontologicznej podstawy – nowa rama całkowicie odrzuca to założenie."
+},
+"summary": "Demokracja 2.0 nie istnieje jako ulepszona demokracja – istnieje jako post-demokratyczne zarządzanie habitability poprzez polycentryczne, performance-legitymizowane, feedback-driven systemy koordynacji."
+}
+}
+},
+"metrics": {
+"paradox_resilience": "resolved at ontological level",
+"frame_stability_score": 0.85,
+"recursion_risk": "low – new frame is generative and non-contradictory"
+}
+}
+Przechodzę do D1_deployment – proszę o CONTINUE
