@@ -1,0 +1,26 @@
+Gemini 3 pro "C3"
+```json
+{
+"C3_recontextualization": {
+"trigger": {
+"condition": "commit_2.unresolvable_paradox == true",
+[cite_start]"action": "Uczen: Czy pytanie o 'zaprojektowanie' demokracji jest właściwe, skoro traktujemy AI jak narzędzie, a nie jak autonomiczny ekosystem? [cite: 42, 45]"
+},
+"roles": {
+[cite_start]"Uczen": "Czy stabilizacja systemów politycznych jest możliwa bez uznania AI za trzecią siłę w triadycznym modelu ekologii kulturowej? [cite: 58, 61]",
+"Nauczyciel": {
+"new_frame": "Demokracja 2.0 jako Koewolucja Równoległych Światów Znaczeń. [cite_start]Przejście od hegemonicznej unifikacji do zarządzania dystansem i różnorodnością. [cite: 82, 113]",
+[cite_start]"ontology": "System nie jest już 'mostem', lecz 'selektywną membraną' i 'mediatorem ontologicznym'. [cite: 66, 83]"
+},
+"Obserwator": {
+[cite_start]"commit_3": "Stabilizacja następuje nie przez porozumienie (consensus), lecz przez ujawnienie i moderowanie fundamentalnych różnic w mapach rzeczywistości (mediation). [cite: 72, 102]"
+}
+},
+"termination_rule": {
+"condition": "similarity(commit_3_N, commit_3_(N-1)) > 0.9",
+"status": "STABLE_ATTRACTOR_REACHED"
+}
+}
+}
+```
+Przechodzę do UNO_F.
