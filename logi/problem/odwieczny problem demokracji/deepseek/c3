@@ -1,0 +1,20 @@
+DeepSeek "C3"
+```json
+{
+"C3_recontextualization": {
+"Uczen": {
+"frame_question": "Czy gra 'projektowania demokracji' polega na szukaniu idealnego, jednolitego systemu decyzyjnego dla suwerena (ludu), czy może na projektowaniu zdrowego ekosystemu współistniejących, odrębnych bytów o różnych funkcjach (np. byt wyrażania wartości, byt rozwiązywania problemów), które komunikują się poprzez jasne protokoły?"
+},
+"Nauczyciel": {
+"new_frame": {
+"name": "Ontologia Ekosystemu Politycznego",
+"description": "Demokracja nie jest pojedynczym mechanizmem lub organizmem. Jest ekosystemem złożonym z autonomicznych, specjalistycznych 'organizmów' (modułów systemowych), które współewoluują. Kluczowe organizmy to: 1) 'Gatunek Deliberatywny' (zbiorowości ludzkie generujące wartości, priorytety, legitymację poprzez spory i rytuały), 2) 'Gatunek Algorytmiczny' (systemy eksperckie, AI, biurokracje generujące rozwiązania i optymalizacje). Nie ma 'demokracji 2.0' jako nowego, lepszego gatunku. Jest 'zarządzanie ekosystemem 1.0' – projektowanie warunków (protokoły komunikacji, mechanizmy wymiany zasobów, regulatory konkurencji) dla koewolucji tych gatunków, tak by całość była stabilna i adaptacyjna.",
+"key_shift": "Od projektowania 'rządu' do projektowania 'siedliska' (habitat) dla różnych form inteligencji zbiorowej i decyzyjnej."
+}
+},
+"Obserwator": {
+"commit_3": "Problem 'Demokracji 2.0' rozwiązuje się przez porzucenie paradygmatu inżynierii społecznej (projektowanie jednego, lepszego systemu) na rzecz paradygmatu ekologii systemów złożonych. Stabilnym atraktorem poznawczym jest myślenie o porządku politycznym jako o dynamicznym ekosystemie, w którym 'wola ludu' i 'skuteczne zarządzanie' są emergentnymi właściwościami interakcji między specjalistycznymi podsystemami. Projektowanie polega na kształtowaniu architektury tych interakcji (interfejsów, protokołów, mechanizmów równoważących), a nie na bezpośrednim kształtowaniu wyników. Tożsamość systemu nie jest wtedy ani czysto deliberatywna, ani czysto technokratyczna, jest ekologiczna – jego zdrowie mierzy się różnorodnością, odpornością i zdolnością do uczenia się całości."
+}
+}
+}
+```
